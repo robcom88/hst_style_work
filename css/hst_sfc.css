@@ -1,0 +1,181 @@
+/*
+	Hearst SF Chronicle-specific Overlay Styles
+*/
+        .syncronex-warning-overlay {
+            visibility: visible;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 2147483647;
+            background-color: #313131;
+            opacity: .95;
+            filter: alpha(opacity=95);
+            opacity: .95;
+            display: none;
+        }
+
+        .syncronex-warning-overlay-container{
+            visibility: visible;
+            position: fixed;
+            left:0px;
+            bottom:0px;
+            width: 100%;
+            height: 275px;
+            z-index: 2147483647;
+        }
+
+        .syncronex-warning-overlay-content {
+            max-width: 750px; /* the 'widest' the overlay can be */
+            max-height: 600px; /* the 'tallest' the overlay can be */
+	        margin: auto; /* center the overlay */
+            background-color: #FFFFFF;
+            border: 1px solid #999;
+            padding: 30px;
+            z-index: 2147483647;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: #000000;
+            font-weight: normal;
+        }
+
+        .syncronex-inline-overlay-content {
+            background-color: #AEAEAE;
+            border: 2px solid #ddd;
+            padding: 3px;
+            z-index: 2147483647;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: #000000;
+            font-family: Arial,Helvetica,sans-serif;
+            font-weight: normal;
+        }
+
+        a.boxclose{
+			position:relative;
+            float:right;
+            margin-top:-45px;
+            margin-right:-45px;
+            cursor:pointer;
+            color: #fff;
+            border: 0px;
+            border-radius: 30px;
+            background: #000000;
+            font-size: 1.5em;
+            display: inline-block;
+            line-height: 0px;
+            padding: 15px 10px;       
+        }
+
+        a.boxclose:before {
+            content: "X";
+        }
+
+        .syncronex-wall-overlay-container{    
+            visibility: visible;    
+            position: absolute;    
+            top:0px;
+            left:0px;
+            height:100%;
+            width:100%;
+            z-index: 2147483647;
+        }
+
+  		.syncronex-wall-overlay{visibility:visible;position:fixed;left:0px;top:0px;width:100%;height:100%;z-index:2147483647;background-color:#313131;opacity:.95;filter:alpha(opacity=95);opacity:.95}
+		.syncronex-wall-overlay-contentOrig{visibility:visible;position:fixed;width:750px;height:600px;/*this is to center the overlay content div*/left:50%;top:50%;margin-top:-300px;/*equals height/2*/margin-left:-375px;/*equals width/2*/background-color:#FFFFFF;border:5px solid #ddd;padding:2px;z-index:2147483647;opacity:1;filter:alpha(opacity=100);opacity:1;color:#000000;font-family:Arial,Helvetica,sans-serif;font-weight:normal;}
+        .syncronex-wall-overlay-content{
+            visibility:visible;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+
+            background-color:#FFFFFF;
+            border:5px solid #ddd;
+            padding:2px;
+            z-index:2147483647;
+            font-family:Arial,Helvetica,sans-serif;
+            font-weight:normal;
+        }
+
+        		/* Set the 'tap area' to be larger than actual control */
+		.tablet-click:after{
+			content:'';
+			position:absolute;
+			top:-10px; bottom: -10px;
+			left:-10px; right:-10px;
+		}
+
+		#sync-alert-offer-row{
+			background-color:black;
+			padding:5px;
+		}
+		
+		.sync-valign{
+			float:none;
+			display: inline-block;
+			vertical-align:middle;
+		}
+		
+		
+		.sync-alert-font1{
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size:2em;
+			color: #009999;
+			font-weight:bold;
+		}
+
+		.sync-alert-font2{
+			font-size:1.0em;
+			font-weight:bold;
+		}
+		
+		.sync-alert-font3{
+			font-size:1.25em;
+			color:white;
+		}
+
+		.sync-alert-font4{
+			
+		}
+
+		.btn-sync-alert-offer{
+			background-color:yellow;
+		}
+		
+		/* square off the round corners */
+		.btn-flat,.input-flat{
+			-webkit-border-radius: 0 !important;
+			   -moz-border-radius: 0 !important;
+			        border-radius: 0 !important;
+		}
+		.sync-auth-row{
+			padding-top:15px;
+		}
+		
+		.sync-alert-signin-area{
+			padding-left:2px; padding-right:2px;
+		}
+
+		.sync-alert-signin-area form{
+			padding-top:10px;
+		}
+		
+		.sync-alert-signin-area2{
+			padding-right:2px;
+		}
+		
+		.sync-btn-wide{
+			padding-left:30px; padding-right:30px;
+		}
+		
+		div.border-right{
+			border-right: 1px solid silver;
+		}
+		
+		div.border-left{
+			border-left: 1px solid silver;
+		}

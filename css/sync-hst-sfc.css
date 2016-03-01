@@ -5533,22 +5533,32 @@ a.boxclose:before {
   vertical-align: middle;
 }
 .sync-alert-font1 {
-  /*font-family: Georgia, "Times New Roman", Times, serif;*/
-  font-family: Sanchez-Regular;
-  font-size: 2em;
-  color: #009999;
-  /*font-weight: bold;*/
+  font-family: Sanchez-bold;
+  font-size: 24px;
+  color: #009FBC;
 }
 .sync-alert-font2 {
-  font-size: 1.0em;
-  font-weight: bold;
+  font-size: 14px;
+  font-family: hackmanbold;
+  color:#000;
 }
+.sync-alert-error .sync-alert-font2{
+	color:#EE3948;
+}
+
 .sync-alert-font3 {
-  font-size: 1.25em;
-  color: white;
+  font-size: 18px;
+  font-family: hackmanextrabold;
+  color: #FFF;
 }
+.sync-alert-font4{
+	font-size: 12px;
+	font-family:hackmanbold;
+	color:#000;
+}
+
 .btn-sync-alert-offer {
-  background-color: yellow;
+  background-color: #FFF353;  
 }
 /* square off the round corners */
 .btn-flat,

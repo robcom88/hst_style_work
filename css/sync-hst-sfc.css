@@ -5315,6 +5315,18 @@
 /*
 	Hearst SF Chronicle-specific Overlay Styles
 */
+@font-face{
+	font-family: 'Sanchez-Regular';
+    src: url('Sanchez-Regular.eot');
+    src: url('Sanchez-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Sanchez-Regular.woff') format('woff'),
+         url('Sanchez-Regular.ttf') format('truetype'),
+         url('Sanchez-Regular.svg#Sanchez-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .syncronex-warning-overlay {
   visibility: visible;
   position: fixed;
@@ -5458,10 +5470,11 @@ a.boxclose:before {
   vertical-align: middle;
 }
 .sync-alert-font1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  font-family: Sanchez-Regular;
   font-size: 2em;
   color: #009999;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 .sync-alert-font2 {
   font-size: 1.0em;

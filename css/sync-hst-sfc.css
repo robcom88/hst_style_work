@@ -5479,28 +5479,6 @@ a.boxclose:before {
   filter: alpha(opacity=95);
   opacity: 0.95;
 }
-.syncronex-wall-overlay-contentOrig {
-  visibility: visible;
-  position: fixed;
-  width: 750px;
-  height: 600px;
-  /*this is to center the overlay content div*/
-  left: 50%;
-  top: 50%;
-  margin-top: -300px;
-  /*equals height/2*/
-  margin-left: -375px;
-  /*equals width/2*/
-  background-color: #FFFFFF;
-  border: 5px solid #ddd;
-  padding: 2px;
-  z-index: 2147483647;
-  filter: alpha(opacity=100);
-  opacity: 1;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-}
 .syncronex-wall-overlay-content {
   visibility: visible;
   position: absolute;
@@ -5508,11 +5486,8 @@ a.boxclose:before {
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
-  border: 5px solid #ddd;
-  padding: 2px;
+  padding: 50px;
   z-index: 2147483647;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
 }
 /* Set the 'tap area' to be larger than actual control */
 .tablet-click:after {
@@ -5567,6 +5542,17 @@ a.boxclose:before {
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
+.input-flat,
+.input-flat::-webkit-input-placeholder{
+	color:#999;
+	font-family: hackmanbold;
+}
+.input-flat,
+.input-flat::-moz-placeholder{
+	color:#999;
+	font-family: hackmanbold;
+}
+
 .sync-auth-row {
   padding-top: 15px;
 }
@@ -5584,9 +5570,178 @@ a.boxclose:before {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.sync-btn-wide .sync-alert-font4{
+	color:#FFF;
+}
+
 div.border-right {
   border-right: 1px solid silver;
 }
 div.border-left {
   border-left: 1px solid silver;
 }
+
+  		/* wall-specific styles */
+		.sync-wall-msg-row{
+		}
+		
+		.sync-wall-msg-area{
+		
+		}
+		
+		.sync-wall-title-row{}
+		
+		.sync-wall-title-area{}
+		
+		.sync-wall-font1{
+			font-family: Sanchez-Bold;
+			font-size:32px;
+			color: #009fbc;
+		}
+
+		.sync-wall-font2{
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size:14px;
+			font-weight:bold;
+		}
+		
+		.sync-wall-font3{
+			font-family: Sanchez-Bold;
+			font-size:16px;
+			color:#FFF;
+		}
+
+		.sync-wall-font4{
+			font-family: Sanchez-Semibold;
+			font-size:17px;
+			color: #000;
+		}
+		
+		.sync-wall-font5{
+			font-family: hackmanbold;
+			font-size: 12px;
+			color: #FFF;
+		}
+
+		.sync-wall-font5 .header{
+			font-size: 14px;
+		}
+		
+		.sync-wall-font6{
+			font-size:13px;
+			font-family: hackmanbold;
+			color: #000;
+		}
+
+		.sync-wall-font6 .error{
+			font-size:13px;
+			font-family: hackmanbold;
+			color: #EE3948;
+		}
+
+		.sync-wall-font7{
+			font-size: 12px;
+			font-family: hackmanbold;
+			color: #000;
+		}
+		
+		.sync-wall-button-font{
+			font-family: hackmanbold;
+			color: #FFF;
+		}
+
+		.sync-auth-row{}
+		
+		.sync-wall-cta-area	{
+			
+		}
+		
+		.sync-wall-offer-row{
+		}
+
+		.sync-wall-cta-area hr{
+			border:none;
+			height:1px;
+			color: #333;
+			background-color: #333;
+		}
+
+		.sync-wall-signin-area{
+			padding-left:2px; padding-right:2px;
+		}
+
+		.sync-wall-signin-area form{
+			padding-top:10px;
+		}
+		
+		.sync-wall-signin-area2{
+			padding-right:2px;
+		}
+		
+		.sync-wall-plan-container{
+/*			width: 200px;*/
+			height:165px;
+			background:#000;
+			background-image: url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
+			background-image: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,1))
+				,url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
+		}
+		.sync-wall-subtitle-row{
+		
+		}
+		.sync-wall-subtitle{}
+		
+		.sync-wall-plan-container button{
+			background-color: #EE3948;
+			margin-top:80px;
+		}
+		
+		.sync-wall-plan-container button .sync-wall-button-font{
+			font-size:16px;
+		}
+		
+		.sync-wall-plan-container p{
+			color:white;
+			padding-top:10px;
+		}
+		.sync-wall-benefits-title-row{
+/*			margin-top:15px;
+			margin-bottom:15px;*/
+		}
+	
+		.sync-wall-benefits-title{
+			color:white;
+		}
+		.sync-wall-benefits-title button{
+			background-color:#009FBC;
+			color: #FFF;
+			cursor:pointer;
+		}
+		.sync-wall-benefits-title button:hover{
+			background-color:blue;
+			color:white;
+			cursor:pointer;
+		}
+		
+		#saloginform .btn-signin{
+			background-color: #EE3948;
+			font-size:14px;
+			font-family: hackmanbold;
+			color: #FFF;
+		}
+		
+		.sync-wall-benefits-row{
+		}
+		
+		.sync-wall-benefits-row [class*='col-']:last-child{
+			border-left:1px solid #333;
+		}
+
+		.id-border{
+			border:2px solid green;
+		}
+		
+		.row-spacer{
+			padding-top:20px;
+		}

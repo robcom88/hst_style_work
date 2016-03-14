@@ -5428,17 +5428,7 @@
   color: #000000;
   font-weight: normal;
 }
-.syncronex-inline-overlay-content {
-  background-color: #AEAEAE;
-  border: 2px solid #ddd;
-  padding: 3px;
-  z-index: 2147483647;
-  filter: alpha(opacity=100);
-  opacity: 1;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-}
+
 a.boxclose {
   position: relative;
   float: right;
@@ -5532,9 +5522,10 @@ a.boxclose:before {
 	color:#000;
 }
 
-.btn-sync-alert-offer {
+a.btn-sync-alert-offer {
   background-color: #FFF353;  
 }
+
 /* square off the round corners */
 .btn-flat,
 .input-flat {
@@ -5745,3 +5736,70 @@ div.border-left {
 		.row-spacer{
 			padding-top:20px;
 		}
+
+	.syncronex-inline-overlay-content {
+		background-color: #FFF;
+		margin:15px;
+		z-index: 2147483600;
+		opacity: 1;
+		filter: alpha(opacity=100);
+		opacity: 1;
+		color: #000000;
+	}
+	
+	.sync-inline-c-to-a-row{
+		border: 1px solid #CC4700;
+		padding-left: 30px; padding-right:30px;
+		padding-top:15px; padding-bottom:15px;
+	}
+	
+	.sync-inline-subscribe-row{
+		background-color: #CC4700;
+		margin-top:15px;
+		padding:15px;
+	}
+	
+	
+	.sync-inline-font1{}
+	.sync-inline-font2{
+		font-family:pierpontbold, serif;
+		font-size:16px;
+	}
+	.sync-inline-font3{
+		font-family: 'HelveticaNeue', sans-serif;
+		font-size:11px;
+		color:#222;
+	}
+	.sync-inline-font4{
+		font-family:Sanchez-bold;
+		font-size:18px;
+		color:#FFF;
+	}
+	.sync-inline-font5{
+		font-family: serif;
+		font-size:16px;
+		color:#FFF;
+	}
+	
+	.sync-inline-btn,
+	.syncronex-inline-overlay-content #saloginform .sync-inline-btn,
+	.syncronex-inline-overlay-content .sync-inline-activation-row a
+	{
+		background-color: #CC4700;
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+	.sync-inline-tandc{
+		padding-top:30px;
+		font-size:.75em;
+		color:#6A6A6A;
+	}
+
+	.sync-inline-subscribe-row .btn{
+		background-color: #222;
+	}
+	
+	.sync-inline-subscribe-row .btn .sync-inline-font3{
+		color:#FFF;
+	}

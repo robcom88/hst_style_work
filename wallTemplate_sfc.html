@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TEST Hst_Sfc_Dev</title>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/sync-hst-sfc.css">
+
+</head>
+<body>
+
+    <div id="syncronexOverlay" class="syncronex-wall-overlay">
+    </div>
+    <div id="syncronexOverlayContainer" class="syncronex-wall-overlay-container">
+        <div id="syncronexOverlayContent" class="syncronex-wall-overlay-content">
+
+
+			<!-- Overlay Snippet starts here -->
+		<div class="sync-paymeter">
+			<div class="row sync-wall-msg-row">
+				<div class="col-md-12 sync-wall-msg-area">
+					<div class="row sync-wall-title-row">
+						<div class="col-md-12 text-center sync-wall-title-area">
+							<p class="sync-wall-font1">
+								Subscribe now to gain access!
+							</p>
+						</div>
+					</div>
+					<div class="row sync-wall-subtitle-row">
+						<div class="col-md-12 text-center sync-wall-subtitle">
+							<p class="sync-wall-font2">
+								<strong>The Chronicle provides 10 free articles a month. You've accessd all 10.</strong>
+								<br/>
+								If you would like to continue reading start a subscription today
+							</p>
+						</div>
+					</div>
+					<div class="row sync-wall-benefits-title-row">
+						<div class="col-md-12 text-center">
+							<div class="sync-wall-benefits-title">
+								<button class="btn btn-flat" >
+								<span class="sync-wall-font3">Premium Benefits Include:</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="row sync-wall-benefits-row row-spacer">
+						<div class="col-md-5 col-md-offset-1">
+							<ul>
+								<li><span class="sync-wall-font4">Pulitzer prize winning news coverage</span></li>
+								<li><span class="sync-wall-font4">Exclusive columns, investigation and analysis</span></li>
+							</ul>
+						</div>
+						<div class="col-md-5">
+							<ul>
+								<li><span class="sync-wall-font4">VIP access to events in your area</span></li>
+								<li><span class="sync-wall-font4">Access to chronicle on any device with premium apps</span></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="row sync-wall-cta-row row-spacer">
+				<div class="col-md-12 sync-wall-cta-area">
+				
+					
+					
+					<div class="row sync-wall-offer-row">
+						<div class="col-md-4">
+							<div class="sync-wall-plan-container text-center">
+								<button class="btn btn-flat">
+									<span class="sync-wall-button-font">$ 1.00 per week</span>
+								</button>
+								<p class="sync-wall-font5">Digital Only</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="sync-wall-plan-container text-center">
+								<button class="btn btn-flat">
+									<span class="sync-wall-button-font">$ 1.00 per week</span>
+								</button>
+								<p class="sync-wall-font5">Digital Only</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="sync-wall-plan-container text-center">
+								<button class="btn btn-flat">
+									<span class="sync-wall-button-font">$ 1.00 per week</span>
+								</button>
+								<p class="sync-wall-font5">Digital Only</p>
+							</div>
+						</div>
+					</div>
+
+					<hr />
+					
+					<div class="row sync-auth-row">
+						<div class="col-md-9 sync-wall-signin-area">
+							<p class="sync-wall-font6">If you are a subscriber, Sign in!</p>
+							<form class="form-inline" id="saloginform">
+								<div class="form-group">
+									<input type="email" class="form-control input-md input-flat" placeholder="EMAIL" id="email" />
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control input-md input-flat" placeholder="PASSWORD" id="password" />
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-flat btn-signin sync-btn-wide">SIGN IN</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-3 sync-wall-signin-area2">
+							<form>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="tablet-click"><span class="sync-wall-font7"> STAY SIGNED IN</span>
+									</label>
+								</div>
+								<div class="form-group">
+									<a href="javascript:void(0)"><span class="sync-wall-font7">FORGOT PASSWORD?</span></a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script>
+				$('#saloginform').off().on('submit',function(event){
+					loginDelegate();
+					event.preventDefault();
+				});
+			</script>
+			<!-- Overlay Snippet ends here -->
+			</div>
+		</div>
+	</div>
+</body>

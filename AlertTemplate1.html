@@ -25,16 +25,16 @@
 			<div class="row sync-alert-msg-row">
 				<div class="col-md-12 sync-alert-msg-area">
 					<div class="row" id="sync-alert-viewcount-msg-row">
-						<div class="col-md-12 text-center" id="sync-alert-viewcount-msg">
+						<div class="col-md-12 sync-alert-base-align" id="sync-alert-viewcount-msg">
 							<p class="sync-alert-font1">
-								<%alertHeadline1%>
+								You've read 7/10 free articles this month
 							</p>
 						</div>
 					</div>
-					<div class="row" id="sync-alert-benefits-msg-row">
-						<div class="col-md-12 text-center" id="sync-alert-benefits-msg">
+					<div class="row hidden-xs">
+						<div class="col-md-12 sync-alert-base-align" id="sync-alert-benefits-msg">
 							<p class="sync-alert-font2">
-								<%alertSubscriberBenefits%>
+								Subscription includes access to SF Chronicle.com and free use of iOS Mobile apps.
 							</p>
 						</div>
 					</div>
@@ -43,31 +43,68 @@
 			
 			<div class="row sync-alert-cta-row">
 				<div class="col-md-12 sync-alert-cta-area">
-					<div class="row" id="sync-alert-offer-row">
-						<div class="col-md-12 text-center">
-							<form class="form-inline">
-								<div class="form-group">
-									<span class="sync-alert-font3">
-										<%alertOfferTitle%>
-									</span>
-								</div>
-								<a href="<%alertSubscribeLink%>" class="btn btn-flat btn-sync-alert-offer  pull-right">
-									<span class="sync-alert-font2"><%alertSubscribeButton%></span>
-								</a>
-								
-<!--								<button id="alertSubscribeButton" type="button" class="btn btn-flat btn-sm btn-sync-alert-offer pull-right">
-									<span class="sync-alert-font2"><%alertSubscribeButton%></span>
-								</button>
--->
-							</form>
+					<div class="row sync-alert-offer-row">
+						<div class="col-md-12 sync-alert-base-align">
+							<span class="sync-alert-font3">
+								Unlimited Access to SF Chronicle for just 99&cent;!
+							</span>
+							<a href="<%alertSubscribeLink%>" class="visible-xs-block btn-block btn btn-flat btn-sync-alert-offer pull-right">
+								<span class="sync-alert-font2">SUBSCRIBE</span>
+							</a>
+							<a href="<%alertSubscribeLink%>" class="hidden-xs btn btn-flat btn-sync-alert-offer pull-right">
+								<span class="sync-alert-font2">SUBSCRIBE</span>
+							</a>
 						</div>
 					</div>
-					<div class="row sync-auth-row">
-						<div class="col-md-9 sync-alert-signin-area">
+					
+					<div class="row visible-xs-block" id="sync-alert-benefits-msg-row">
+						<div class="col-md-12 sync-alert-base-align">
 							<p class="sync-alert-font2">
-								<%existingSubscriberMsg%>
+								Subscription includes access to SF Chronicle.com and free use of iOS Mobile apps.
 							</p>
-							<form class="form-inline" id="saloginform">
+						</div>
+					</div>
+
+					<div class="row sync-alert-auth-row">
+						<div class="col-xs-12 col-sm-9 sync-alert-signin-area">
+						<form class="form-inline" id="saloginform">
+							<p class="sync-alert-font2">
+								If you are a subscriber, Sign In!
+							</p>
+							
+							<div class="row visible-xs-block">
+								<div class="col-xs-6">
+									<input type="email" class="form-control input-flat input-md" placeholder="EMAIL" />
+								</div>
+								<div class="col-xs-6">
+									<input type="password" class="form-control input-flat input-md" placeholder="PASSWORD" />
+								</div>
+							</div>
+							<div class="row visible-xs-block">
+								<div class="col-xs-6">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" class="tablet-click">
+											<span class="sync-alert-font4">STAY SIGNED IN</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-xs-6">
+									<div class="form-group">
+										<a href="javascript:void(0)"><span class="sync-alert-font4">FORGOT PASSWORD?</span></a>
+									</div>
+								</div>
+								<div class="row visible-xs-block">
+									<div class="col-xs-12">
+										<div class="form-group visible-xs-block">
+											<button type="submit" class="btn btn-block btn-flat btn-danger sync-btn-wide"><span class="sync-alert-font4"> SIGN IN</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="row hidden-xs">
 								<div class="form-group">
 									<input type="email" class="form-control input-md input-flat" placeholder="EMAIL" id="email" />
 								</div>
@@ -77,9 +114,14 @@
 								<div class="form-group">
 									<button type="submit" class="btn btn-flat btn-danger sync-btn-wide"><span class="sync-alert-font4"> SIGN IN</span></button>
 								</div>
-							</form>
+							</div>
+						</form>
 						</div>
-						<div class="col-md-3 sync-alert-signin-area2 border-left">
+
+
+
+
+						<div class="col-sm-3 hidden-xs sync-alert-signin-area2 border-left">
 							<form>
 								<div class="checkbox">
 									<label>
@@ -96,9 +138,6 @@
 				</div>
 			</div>
 </div>
-<script>
-console.log('not running any script...');
-</script>
 			<!-- Overlay Snippet ends here -->
 		</div>
 	</div>

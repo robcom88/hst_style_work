@@ -1,0 +1,10 @@
+/*
+	Usage:
+	cd C:\__devtools\less.js-windows-v2.5.1a\
+	execute lessc.cmd path\source.less path\output.css
+	
+	to compress:
+	lessc --clean-css path\source.less path\output.css
+	
+	
+*/

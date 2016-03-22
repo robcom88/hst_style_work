@@ -137,11 +137,9 @@ a.boxclose:before {
 .syncronex-wall-overlay-content {
   visibility: visible;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   background-color: #FFFFFF;
-  padding: 50px;
+  margin:10px;
+  padding: 15px;
   z-index: 2147483647;
 }
 /* Set the 'tap area' to be larger than actual control */
@@ -215,7 +213,7 @@ a.btn-sync-alert-offer {
 }
 
 .sync-auth-row {
-  padding-top: 15px;
+  padding-top: 0px;
 }
 .sync-alert-signin-area {
   padding-left: 2px;
@@ -257,14 +255,13 @@ div.border-left {
 		
 		.sync-wall-font1{
 			font-family: Sanchez-Bold;
-			font-size:32px;
+			font-size:18px;
 			color: #009fbc;
 		}
 
 		.sync-wall-font2{
 			font-family: Georgia, "Times New Roman", Times, serif;
-			font-size:14px;
-			font-weight:bold;
+			font-size:13px;
 		}
 		
 		.sync-wall-font3{
@@ -281,12 +278,12 @@ div.border-left {
 		
 		.sync-wall-font5{
 			font-family: hackmanbold;
-			font-size: 12px;
+			font-size: 19px;
 			color: #FFF;
 		}
 
 		.sync-wall-font5 .header{
-			font-size: 14px;
+			font-size: 13px;
 		}
 		
 		.sync-wall-font6{
@@ -309,6 +306,7 @@ div.border-left {
 		
 		.sync-wall-button-font{
 			font-family: hackmanbold;
+			font-size: 14px;
 			color: #FFF;
 		}
 
@@ -320,14 +318,17 @@ div.border-left {
 			
 		}
 		
-		.sync-wall-offer-row{
+		.sync-wall-offer-btn{
+			margin-bottom:18px;
 		}
 
 		.sync-wall-cta-area hr{
 			border:none;
 			height:1px;
-			color: #333;
-			background-color: #333;
+			color: #ccc;
+			background-color: #ccc;
+			margin-top:14px;
+			margin-bottom:14px;
 		}
 
 		.sync-wall-signin-area{
@@ -335,7 +336,7 @@ div.border-left {
 		}
 
 		.sync-wall-signin-area form{
-			padding-top:10px;
+			padding-top:0px;
 		}
 		
 		.sync-wall-signin-area2{
@@ -344,6 +345,7 @@ div.border-left {
 		
 		.sync-wall-plan-container{
 /*			width: 200px;*/
+			margin-top:10px;
 			height:165px;
 			background:#000;
 			background-image: url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
@@ -355,13 +357,14 @@ div.border-left {
 		}
 		.sync-wall-subtitle{}
 		
-		.sync-wall-plan-container button{
+		button.sync-wall-offer-btn{
 			background-color: #EE3948;
-			margin-top:80px;
+			margin-top:46px;
+			width:90%;
 		}
 		
-		.sync-wall-plan-container button .sync-wall-button-font{
-			font-size:16px;
+		button.sync-wall-offer-btn .sync-wall-button-font{
+			font-size:19px;
 		}
 		
 		.sync-wall-plan-container p{
@@ -387,8 +390,8 @@ div.border-left {
 			cursor:pointer;
 		}
 		
-		#saloginform .btn-signin{
-			background-color: #EE3948;
+		#saloginform .btn-wall-signin{
+			background-color: #000;
 			font-size:14px;
 			font-family: hackmanbold;
 			color: #FFF;
@@ -406,7 +409,7 @@ div.border-left {
 		}
 		
 		.row-spacer{
-			padding-top:20px;
+			padding-top:0px;
 		}
 
 	.syncronex-inline-overlay-content {
@@ -488,6 +491,10 @@ div.border-left {
 	}
 }
 @media screen and (min-width:601px){
+	.row-spacer{
+		padding-top:20px;
+	}
+
 	.syncronex-warning-overlay-container {
 	  padding:20px;
 	  bottom:0px;
@@ -500,6 +507,33 @@ div.border-left {
 		border: 1px solid #999;
 	}
 
+	.syncronex-wall-overlay-content{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 720px;  /* the 'widest' the overlay can be */
+		padding:50px;
+	}
+	
+	.sync-wall-cta-area hr{
+		color: #333;
+		background-color: #333;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.sync-wall-plan-container button{
+		margin-top:80px;
+	}
+
+	.sync-wall-plan-container button .sync-wall-button-font{
+		font-size:16px;
+	}
+
+	#saloginform .btn-wall-signin{
+		background-color: #EE3948;
+	}
+
 	.sync-alert-base-align{
 		text-align:center;
 	}
@@ -507,6 +541,15 @@ div.border-left {
 	.sync-alert-auth-row{
 		border-top: 0px;
 	}
+
+	.sync-wall-signin-area form{
+		padding-top:10px;
+	}
+
+	.sync-auth-row {
+	  padding-top: 15px;
+	}
+
 	
 	a.boxclose{
 		margin-right: -45px;
@@ -537,5 +580,32 @@ div.border-left {
 		font-family:hackmanbold;
 		color:#000;
 	}
+	.sync-wall-font1{
+		font-size:32px;
+	}
+
+	.sync-wall-font2{
+		font-size:14px;
+	}
+	
+	.sync-wall-font5{
+		font-size: 14px;
+	}
+
+	.sync-wall-font5 .header{
+		font-size: 14px;
+	}
+	
+	.sync-wall-font6{
+		font-size:13px;
+	}
+
+	.sync-wall-font6 .error{
+		font-size:13px;
+	}
+
+	.sync-wall-font7{
+		font-size: 12px;
+	}	
 	
 }

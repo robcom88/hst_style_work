@@ -1,0 +1,676 @@
+/*
+	Hearst SF Chronicle-specific Overlay Styles
+*/
+@font-face{
+	font-family: 'Sanchez-Regular';
+    src: url('Sanchez-Regular.eot');
+    src: url('Sanchez-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Sanchez-Regular.woff') format('woff'),
+         url('Sanchez-Regular.ttf') format('truetype'),
+         url('Sanchez-Regular.svg#Sanchez-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sanchez-Bold';
+    src: url('Sanchez-Bold.eot');
+    src: url('Sanchez-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Sanchez-Bold.woff') format('woff'),
+         url('Sanchez-Bold.ttf') format('truetype'),
+         url('Sanchez-Bold.svg#Sanchez-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sanchez-Semibold';
+    src: url('Sanchez-Semibold.eot');
+    src: url('Sanchez-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('Sanchez-Semibold.woff') format('woff'),
+         url('Sanchez-Semibold.ttf') format('truetype'),
+         url('Sanchez-Semibold.svg#Sanchez-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hackmanbold';
+    src: url('Hackman-Bold-webfont.eot');
+    src: url('Hackman-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hackman-Bold-webfont.woff2') format('woff2'),
+         url('Hackman-Bold-webfont.woff') format('woff'),
+         url('Hackman-Bold-webfont.ttf') format('truetype'),
+         url('Hackman-Bold-webfont.svg#hackmanbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hackmanextrabold';
+    src: url('Hackman-ExtraBold-webfont.eot');
+    src: url('Hackman-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hackman-ExtraBold-webfont.woff2') format('woff2'),
+         url('Hackman-ExtraBold-webfont.woff') format('woff'),
+         url('Hackman-ExtraBold-webfont.ttf') format('truetype'),
+         url('Hackman-ExtraBold-webfont.svg#hackmanextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hackmanmedium';
+    src: url('Hackman-Medium-webfont.eot');
+    src: url('Hackman-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Hackman-Medium-webfont.woff2') format('woff2'),
+         url('Hackman-Medium-webfont.woff') format('woff'),
+         url('Hackman-Medium-webfont.ttf') format('truetype'),
+         url('Hackman-Medium-webfont.svg#hackmanmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pierpontbold';
+    src: url('Pierpont-Bold-webfont.eot');
+    src: url('Pierpont-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Pierpont-Bold-webfont.woff2') format('woff2'),
+         url('Pierpont-Bold-webfont.woff') format('woff'),
+         url('Pierpont-Bold-webfont.ttf') format('truetype'),
+         url('Pierpont-Bold-webfont.svg#pierpontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.sync-row{
+    display:block;
+    float:left;
+    width:100%;
+    white-space:nowrap;
+}
+.sync-col{
+	float:left;
+	border:1px solid blue;
+}
+.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;
+}
+.text-center{
+	text-align:center;
+}
+
+.sync-btn{
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* base style is for mobile display */
+.syncronex-wall-overlay {
+  visibility: visible;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2147483647;
+  background-color: #000;
+  opacity: .65;
+  filter: alpha(opacity=65);
+  opacity: 0.65;
+}
+
+.syncronex-wall-overlay-container {
+  visibility: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 2147483647;
+}
+
+.syncronex-wall-overlay-content {
+  position:absolute;
+  background-color: #FFFFFF;
+  top: 0; bottom: 0; left: 0; right: 0;
+
+  width:auto;
+  height:auto;
+
+  max-width:95%;
+  max-height:95%;
+  margin:auto;
+  z-index: 2147483647;
+}
+
+.sync-wall-content-padding{
+    display:block;
+    margin:18px 9px 18px 9px;
+    height:100%;
+}
+/* Set the 'tap area' to be larger than actual control */
+.tablet-click:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+}
+
+.sync-valign {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* square off the round corners */
+.btn-flat,
+.input-flat {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+.input-flat,
+.input-flat::-webkit-input-placeholder{
+	color:#999;
+	font-family: hackmanbold;
+}
+.input-flat,
+.input-flat::-moz-placeholder{
+	color:#999;
+	font-family: hackmanbold;
+}
+.sync-auth-row {
+  padding-top: 0px;
+}
+.sync-btn-wide {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.border-right {
+  border-right: 1px solid silver;
+}
+div.border-left {
+  border-left: 1px solid silver;
+}
+
+/* wall-specific styles */
+.sync-wall-font1{
+	font-family: Sanchez-Bold;
+	font-size:18px;
+	color: #009fbc;
+}
+
+.sync-wall-font2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+}
+
+.sync-wall-font3{
+	font-family: Sanchez-Bold;
+	font-size:16px;
+	color:#FFF;
+}
+
+.sync-wall-font4{
+	font-family: Sanchez-Semibold;
+	font-size:17px;
+	color: #000;
+}
+
+.sync-wall-font5{
+	font-family: hackmanbold;
+	font-size: 13px;
+}
+
+.sync-wall-font5 .header{
+	font-size: 13px;
+}
+
+.sync-wall-font6{
+	font-size:13px;
+	font-family: hackmanbold;
+	color: #000;
+}
+
+.sync-wall-font6 .error{
+	font-size:13px;
+	font-family: hackmanbold;
+	color: #EE3948;
+}
+
+.sync-wall-font7{
+	font-size: 12px;
+	font-family: hackmanbold;
+	color: #000;
+}
+
+.sync-wall-button-font{
+	font-family: hackmanbold;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.sync-auth-row-msg{
+	margin-top:14px;
+	text-align:center;
+}
+.sync-wall-title-row{
+    white-space:initial;
+}
+
+.sync-wall-subtitle-row{
+	margin-top: 12px;
+    white-space:initial;
+}
+
+.sync-wall-plan-template-sm{
+	display:block;
+    margin-top: 18px;
+    white-space:initial;
+}
+
+.sync-wall-plan-template-sm:first-child{
+	margin-top: 16px;
+}
+
+.sync-tablet{
+    display:none;
+}
+
+.sync-mobile{
+    display:inherit;
+}
+
+.sync-wall-plan-template-lg{
+	display:none;
+    width:32%;
+    height:165px;
+
+	background:#000;
+	background-image: url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
+	background-image: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,1))
+		,url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
+
+}
+.sync-wall-plan-template-lg + .sync-wall-plan-template-lg{
+    margin-left:10px;
+}
+
+.sync-wall-benefit-headline{
+    width:245px;
+    height:30px;
+    margin-top:20px;
+    background-color:#009FBC;
+}
+
+.sync-wall-benefit-features{
+    margin-top:20px;
+    float:left;
+    width:45%;
+    white-space:initial;
+}
+.sync-wall-benefit-feature {
+    padding-right:30px;
+}
+.sync-wall-benefit-features:first-child{
+    /*border:1px solid red;*/
+}
+.sync-wall-benefit-features + .sync-wall-benefit-features {
+    margin-left:30px;
+    border-left: 1px solid #999;
+}
+.sync-wall-benefit-features + .sync-wall-benefit-features .fa-ul{
+    margin-left:55px;
+    /*background-color:orange;*/
+}
+.sync-wall-benefit-features .fa-ul{
+    margin: 0px 0px 0px 25px;
+    margin-left:25px;
+}
+
+.sync-wall-benefit-features li:not(:first-child){
+    /*margin-top:30px;*/
+}
+
+.sync-wall-benefit-features .fa-li{
+    color:#009FBC;
+}
+
+.sync-wall-offers-row{
+    /* nothing in mobile view*/
+}
+
+.sync-wall-subscribe-button{
+	width:100%;
+	height:40px;
+	background-color:#EE3948;
+}
+.sync-wall-plan-template-lg .sync-wall-subscribe-button{
+    margin-top:80px;
+    width:150px;
+    margin-left:25px; margin-right:25px;
+}
+
+.sync-wall-offer-btn{
+	margin-bottom:18px;
+}
+
+.sync-wall-hr{
+	border:none;
+	height:1px;
+	color: #ccc;
+	background-color: #ccc;
+	margin-top:14px;
+}
+
+.sync-wall-signin-area{
+	padding-left:0; 
+	padding-right:0;
+	margin-top:14px;
+	text-align:center;
+}
+
+.sync-auth-part input[type=checkbox] { 
+    display:none; /* to hide the native checkbox */
+} 
+.sync-auth-part input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size:12px;
+}
+
+.sync-auth-part input[type=checkbox] + label:before { 
+    content: "\f096"; 
+    letter-spacing: 10px; /* space between check box and label*/
+} 
+
+.sync-auth-part input[type=checkbox]:checked + label:before { 
+    content: "\f046"; 
+    letter-spacing: 8px; 
+}
+
+.sync-wall-signin-area form{
+	padding-top:0px;
+}
+
+.sync-wall-signin-area button{
+	width:75%;
+	height:30px;
+	background-color:#222;
+}
+
+.sync-wall-plan-container{
+}
+.sync-wall-subtitle-row{
+
+}
+.sync-wall-subtitle{}
+
+button.sync-wall-offer-btn{
+	background-color: #EE3948;
+	margin-top:46px;
+	width:90%;
+}
+
+button.sync-wall-offer-btn .sync-wall-button-font{
+	font-size:19px;
+}
+
+.btn-wall-signin{
+	background-color: #000;
+	font-size:14px;
+	font-family: hackmanbold;
+	color: #FFF;
+}
+
+.sync-wall-benefits-row{
+}
+
+.sync-wall-benefits-row [class*='col-']:last-child{
+	border-left:1px solid #333;
+}
+
+.id-border{
+	border:2px solid green;
+}
+
+.row-spacer{
+	padding-top:0px;
+}
+
+/* Set the height smaller for anything larger than phone view */
+
+/* 601-767 is still considered a 'tablet' display by Hearst*/
+@media screen and (min-width:601px) {
+    .sync-tablet{
+        display:inherit;
+    }
+
+    .sync-mobile{
+        display:none;
+    }
+
+	.syncronex-wall-overlay-content{
+		height:auto;
+        width:94%;
+	}
+
+    .sync-wall-content-padding{
+        margin:2%;
+        height:auto;
+    }
+
+    .sync-wall-offers-row{
+        margin-top:20px;
+    }
+    .sync-wall-plan-template-sm{
+        display:none;
+    }
+
+    .sync-wall-plan-template-lg{
+        display:inline-block;
+    }
+    .sync-wall-plan-template-lg + .sync-wall-plan-template-lg{
+        margin-left:1%;
+    }
+    
+    .sync-wall-subtitle-row{
+        margin-top:10px;
+    }
+
+    .sync-wall-benefit-features {
+     
+    }
+	.sync-auth-row {
+	  padding-top: 15px;
+	}
+    .sync-wall-signin-area{
+        margin-top:10px;
+        text-align:left;
+        /*border:1px solid green;*/
+    }
+    .sync-wall-signin-area + .sync-wall-signin-area{
+        margin-top:0;
+        /*border:1px solid blue;*/
+    }
+    .sync-auth-part{
+        float:left;
+        /*background-color:antiquewhite;*/
+    }
+    .sync-auth-part + .sync-auth-part{
+        float:right;
+        /*background-color:aquamarine;*/
+        vertical-align:bottom;
+    }
+
+    .sync-auth-form-container{
+        position:relative;
+        width:100%;
+    }
+    .sync-auth-form-container a.bottom-right{
+        position:absolute;
+        bottom:0;
+        right:0
+    }
+    .sync-auth-part form{
+        padding-top:0;
+        margin-top:20px;
+    }
+
+    .sync-auth-part input{
+        padding-left:5px;
+        width:150px;
+        height:24px;
+        vertical-align:bottom;
+    }
+
+    .sync-wall-signin-area button{
+		height:30px;
+        width:115px;
+        background-color: #EE3948;
+        vertical-align:bottom;
+    }
+
+    .sync-wall-signin-area button span{
+        display:inline-block;
+        vertical-align:middle;
+    }
+
+
+
+	.sync-wall-font1{
+		font-size:32px;
+	}
+
+	.sync-wall-font2{
+		font-size:14px;
+	}
+	
+	.sync-wall-font5{
+		font-size: 14px;
+	}
+
+	.sync-wall-font5 .header{
+		font-size: 14px;
+	}
+	
+	.sync-wall-font6{
+		font-size:13px;
+	}
+
+	.sync-wall-font6 .error{
+		font-size:13px;
+	}
+
+	.sync-wall-font7{
+		font-size: 12px;
+	}	
+
+}
+
+
+@media screen and (min-width:768px){
+    .sync-tablet{
+        display:inherit;
+    }
+
+    .sync-mobile{
+        display:none;
+    }
+
+	.syncronex-wall-overlay-content{
+		width:720px;
+	}
+	
+    .sync-wall-content-padding{
+        margin-top:50px;
+        margin-left:50px;
+        margin-right:50px;
+    }
+
+    .sync-wall-benefit-features {
+        width:280px;
+    }
+
+    .sync-wall-benefit-features li:not(:first-child){
+        margin-top:30px;
+    }
+
+    .sync-wall-offers-row{
+        margin-top:20px;
+    }
+    .sync-wall-plan-template-sm{
+        display:none;
+    }
+
+    .sync-wall-plan-template-lg{
+        display:inline-block;
+        width:200px;
+    }
+
+    .sync-wall-subtitle-row{
+        margin-top:10px;
+    }
+
+	.sync-auth-part .sync-wall-button-font{
+		font-size:16px;
+	}
+    .sync-wall-hr{
+	    color: #999;
+	    background-color: #999;
+	    margin-top:20px;
+}
+
+	.sync-auth-row {
+	  padding-top: 15px;
+	}
+	.sync-wall-font1{
+		font-size:32px;
+	}
+
+	.sync-wall-font2{
+		font-size:14px;
+	}
+
+    .sync-wall-font4{
+	    font-family: Sanchez-Semibold;
+	    font-size:14px;
+	    color: #000;
+    }
+	
+	.sync-wall-font5{
+		font-size: 14px;
+	}
+
+	.sync-wall-font5 .header{
+		font-size: 14px;
+	}
+	
+	.sync-wall-font6{
+		font-size:13px;
+	}
+
+	.sync-wall-font6 .error{
+		font-size:13px;
+	}
+
+	.sync-wall-font7{
+		font-size: 12px;
+	}	
+	
+}

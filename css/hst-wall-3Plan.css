@@ -155,7 +155,6 @@ a.sync-btn{
   height:auto;
 
   max-width:95%;
-  max-height:95%;
   margin:auto;
   z-index: 2147483647;
 }
@@ -360,6 +359,10 @@ div.border-left {
     color:#009FBC;
 }
 
+.sync-wall-benefit-features span{
+    white-space:normal;
+}
+
 .sync-wall-offers-row{
     /* nothing in mobile view*/
 }
@@ -395,6 +398,10 @@ div.border-left {
 	padding-right:0;
 	margin-top:14px;
 	text-align:center;
+}
+
+.sync-auth-part input{
+    margin-bottom:0px;
 }
 
 .sync-auth-part input[type=checkbox] { 
@@ -478,7 +485,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
     }
 
 	.syncronex-wall-overlay-content{
-		height:auto;
+		height:625px;
         width:94%;
 	}
 
@@ -507,7 +514,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
         margin-right:25px;
     }
 
-    .sync-wall-plan-template-lg + .sync-wall-plan-template-lg{
+    .sync-wall-plan-template-lg-nth{
         margin-left:1%;
     }
 
@@ -527,6 +534,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
 	.sync-auth-row {
 	  padding-top: 15px;
 	}
+
     .sync-wall-signin-area{
         margin-top:10px;
         text-align:left;
@@ -558,12 +566,12 @@ button.sync-wall-offer-btn .sync-wall-button-font{
     .sync-auth-part form{
         padding-top:0;
         margin-top:20px;
+        margin-bottom:0px;
     }
 
     .sync-auth-part input{
         padding-left:5px;
         width:150px;
-        height:24px;
         vertical-align:bottom;
     }
 
@@ -651,6 +659,10 @@ button.sync-wall-offer-btn .sync-wall-button-font{
         width:200px;
     }
 
+    .sync-wall-plan-template-lg-nth{
+        margin-left:10px;
+    }
+
     .sync-wall-subtitle-row{
         margin-top:10px;
     }
@@ -695,3 +707,9 @@ button.sync-wall-offer-btn .sync-wall-button-font{
 	}	
 	
 }
+
+/*@media screen and (min-height:650px){
+    .syncronex-wall-overlay-content{
+        height:625px;
+    }
+}*/

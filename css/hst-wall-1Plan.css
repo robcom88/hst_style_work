@@ -276,6 +276,11 @@ div.border-left {
 	color: #000;
 }
 
+.sync-wall-font9{
+    font-size:16px;
+    font-family:Sanchez-Semibold;
+    color:#000;
+}
 .sync-wall-button-font{
 	font-family: hackmanbold;
 	font-size: 14px;
@@ -336,6 +341,10 @@ div.border-left {
 
 }
 
+.sync-wall-plan-template-lg{
+    display:none;
+}
+
 .sync-wall-benefit-headline{
     width:245px;
     height:30px;
@@ -380,6 +389,15 @@ div.border-left {
     white-space:normal;
 }
 
+.sync-wall-subscriber-benefits{
+    margin-top:40px;
+}
+
+.sync-wall-subscriber-benefits > p{
+    white-space:normal;
+    margin:0 0 0 0;
+}
+
 .sync-wall-subscribe-button{
 	background-color:#EE3948;
     padding-top:10px;
@@ -411,7 +429,9 @@ div.border-left {
 }
 
 .sync-auth-part input{
+    border:1px solid #999;
     margin-bottom:0px;
+    height:26px;
 }
 
 .sync-auth-part input[type=checkbox] { 

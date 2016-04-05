@@ -2314,6 +2314,11 @@ div.border-left {
   font-family: hackmanextrabold;
   color: #000;
 }
+.sync-wall-font9 {
+  font-size: 16px;
+  font-family: Sanchez-Semibold;
+  color: #000;
+}
 .sync-wall-button-font {
   font-family: hackmanbold;
   font-size: 14px;
@@ -2361,6 +2366,9 @@ div.border-left {
   background-image: url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
   background-image: linear-gradient(rgba(180, 180, 180, 0.65), #000000), url("http://www.freedigitalphotos.net/images/gallery-thumbnails.php?id=20746560802606786227350259");
 }
+.sync-wall-plan-template-lg {
+  display: none;
+}
 .sync-wall-benefit-headline {
   width: 245px;
   height: 30px;
@@ -2400,6 +2408,13 @@ div.border-left {
 .sync-wall-benefit-features span {
   white-space: normal;
 }
+.sync-wall-subscriber-benefits {
+  margin-top: 40px;
+}
+.sync-wall-subscriber-benefits > p {
+  white-space: normal;
+  margin: 0 0 0 0;
+}
 .sync-wall-subscribe-button {
   background-color: #EE3948;
   padding-top: 10px;
@@ -2427,7 +2442,9 @@ div.border-left {
   text-align: center;
 }
 .sync-auth-part input {
+  border: 1px solid #999;
   margin-bottom: 0px;
+  height: 26px;
 }
 .sync-auth-part input[type=checkbox] {
   display: none;

@@ -5735,6 +5735,15 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     height: 100%;
   }
 
+  .sync-inline-c-to-a-row {
+  border: 1px solid #CC4700;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
   .sync-inline-xs-sign-in-controls{
     vertical-align:middle;
   }

@@ -5668,6 +5668,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
 .sync-inline-font2 {
   font-family: pierpontbold, serif;
   font-size: 16px;
+  font-style: italic;
 }
 .sync-inline-font3 {
   font-family: 'HelveticaNeue', sans-serif;
@@ -5684,13 +5685,29 @@ button.sync-wall-offer-btn .sync-wall-button-font {
   font-size: 16px;
   color: #FFF;
 }
+.sync-inline-font6 {
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 12px;
+  color: #222;
+}
+
+
 .sync-inline-btn,
 .syncronex-inline-overlay-content #saloginform .sync-inline-btn,
 .syncronex-inline-overlay-content .sync-inline-activation-row a {
   background-color: #CC4700;
   color: #FFF;
   text-decoration: none;
+  padding:12px 18px;
 }
+.sync-inline-btn-inverse{
+    background-color:#222;
+}
+.sync-inline-btn > span{
+    font-size:.75em;
+}
+
 .sync-inline-tandc {
   padding-top: 30px;
   font-size: .75em;
@@ -5706,11 +5723,22 @@ button.sync-wall-offer-btn .sync-wall-button-font {
   margin-left: -15px;
 }
 /* Set the height smaller for anything larger than phone view */
+@media screen and (min-width:320px) and (max-width:999px){
+    .syncronex-inline-overlay-content {
+        width:80%;
+    }
+}
+
 @media screen and (max-width: 600px) {
   .syncronex-warning-overlay-container {
     top: 10%;
     height: 100%;
   }
+
+  .sync-inline-xs-sign-in-controls{
+    vertical-align:middle;
+  }
+
 }
 @media screen and (min-width: 601px) {
   .row-spacer {

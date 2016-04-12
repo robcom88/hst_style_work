@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -40,13 +40,18 @@
 									<div class="form-group">
 										<input type="password" class="form-control input-md input-flat" placeholder="Password" id="password" />
 									</div>
-									<div class="form-group">
-										<button type="submit" class="btn btn-flat sync-btn-wide sync-inline-btn ">SIGN-IN</button>
-									</div>
+                                    <div class="form-group sync-inline-xs-sign-in-controls">
+                                        <button type="submit" class="btn btn-flat sync-inline-btn "><span>SIGN-IN</span></button>
+                                        <div class="hidden-sm visible-xs-block pull-right" style="display:inline-block">
+                                            <a href="#">
+                                                <span class="sync-inline-font6">Forgot your Password?</span>
+                                            </a>
+                                        </div>
+                                    </div>
 								</form>
 							</div>
 						</div>
-						<div class="row sync-auth-row">
+						<div class="row sync-auth-row hidden-xs">
 							<div class="col-md-12">
 								<form class="form-inline">
 									<div class="form-group">
@@ -68,7 +73,7 @@
 								</p>
 								<p>
 									<a href="javascript:void(0)" class="btn btn-flat sync-inline-btn" role="button">
-										<%activationButtonCaption%>
+                                        <span><%activationButtonCaption%></span>
 									</a>
 								</p>
 								<p class="sync-inline-tandc">
@@ -77,23 +82,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="row sync-inline-subscribe-row">
-						<div class="col-md-6 sync-inline-subscribe-msg">
-							<p>
-							<span class="sync-inline-font4">
-								<%subscribeHeadline%>
-							</span>
-							</p>
-						</div>
-						<div class="col-md-6 sync-inline-subscribe-action-area">
-							<a href="#" class="btn btn-flat pull-right">
-								<span class="sync-inline-font3">
-									<%subscribeButtonCaption%>
-								</span>
-							</a>
-						</div>
-					</div>
-              </div>
+                    <%planTemplate_HstInline_1%>
+
+                    <input type="hidden" value="<%subscribeButtonCaption%>" />
+                </div>
           </div>
           <div class="span4">
               <ul class="thumbnails">

@@ -431,7 +431,7 @@ div.border-left {
 .sync-auth-part input{
     border:1px solid #999;
     margin-bottom:0px;
-    height:26px;
+    /*height:26px;*/
 }
 
 .sync-auth-part input[type=checkbox] { 
@@ -545,7 +545,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
         text-align:center;
         display:inline-block;
         background-color:#000;
-        padding-bottom:.25em;
+        padding-bottom:.5em;
     }
 
     .sync-wall-plan-template-lg p{
@@ -554,7 +554,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
         white-space:normal;
     }
 
-    .sync-wall-plan-template-lg button.sync-wall-subscribe-button{
+    .sync-wall-plan-template-lg a.sync-wall-subscribe-button{
         position:absolute;
         padding-top:5px;
         padding-bottom:5px;
@@ -564,7 +564,7 @@ button.sync-wall-offer-btn .sync-wall-button-font{
         background-color:#FFF353;
         margin-top:8px;
     }
-    .sync-wall-plan-template-lg button.sync-wall-subscribe-button .sync-wall-button-font{
+    .sync-wall-plan-template-lg a.sync-wall-subscribe-button .sync-wall-button-font{
         color:#000;
     }
     .sync-wall-subtitle-row{

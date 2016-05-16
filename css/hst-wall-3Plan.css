@@ -138,7 +138,7 @@ a.sync-btn{
 
 .syncronex-wall-overlay-container {
   visibility: visible;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   height: 100%;
@@ -147,16 +147,11 @@ a.sync-btn{
 }
 
 .syncronex-wall-overlay-content {
-  position:absolute;
-  background-color: #FFFFFF;
-  top: 0; bottom: 0; left: 0; right: 0;
-
-  width:auto;
-  height:auto;
-
-  max-width:95%;
-  margin:auto;
-  z-index: 2147483610;
+	background-color: #FFFFFF;
+	margin:auto;
+	height:500px;
+	max-width: 95%;
+	z-index: 2147483610;
 }
 
 .sync-wall-content-padding{

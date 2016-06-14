@@ -2515,6 +2515,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     margin-right: 0;
     margin-left: 0;
     white-space: normal;
+    line-height: normal;
   }
   .sync-wall-subtitle-row {
     margin-top: 10px;

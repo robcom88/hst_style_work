@@ -2498,6 +2498,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
+    line-height: normal;
   }
   .sync-wall-plan-template-lg div {
     height: 40px;

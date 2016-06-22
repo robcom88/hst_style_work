@@ -9,6 +9,8 @@
   /* Deprecated as of 4.4.0 */
   /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+  
+  line-height: normal;
 }
 @font-face {
   font-family: 'FontAwesome';
@@ -2496,6 +2498,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
+    line-height: normal;
   }
   .sync-wall-plan-template-lg div {
     height: 40px;
@@ -2512,6 +2515,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     margin-right: 0;
     margin-left: 0;
     white-space: normal;
+    line-height: normal;
   }
   .sync-wall-subtitle-row {
     margin-top: 10px;

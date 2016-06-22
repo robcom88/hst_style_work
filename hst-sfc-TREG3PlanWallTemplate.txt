@@ -1,0 +1,76 @@
+<input type="hidden" value="<%urlBase%>" />
+<div class="sync-paymeter">
+<div class="sync-wall-content-padding">
+<div class="sync-row sync-wall-title-row text-center">
+<span class="sync-wall-font1">
+<%wallHeadline%>
+</span>
+</div>
+<div class="sync-row sync-wall-subtitle-row text-center">
+<span class="sync-wall-font2">
+<%wallHeadline2%>
+</span>
+</div>
+<div class="sync-row sync-tablet text-center">
+<div class="sync-wall-benefit-headline sync-valign">
+<span class="sync-wall-font3"><%benefitsTitleMsg%></span>
+</div>
+</div>
+<div class="sync-row sync-tablet">
+<div class="sync-wall-benefit-features">
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
+</ul>
+</div>
+<div class="sync-wall-benefit-features">
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
+</ul>
+</div>
+</div>
+ 
+<div class="sync-row sync-wall-offers-row">
+<%planTemplate_3PlanSm_1%>
+<%planTemplate_3PlanSm_5%>
+<%planTemplate_3PlanSm_9%>
+<%planTemplate_3PlanLg_1%>
+<%planTemplate_3PlanLg_5%>
+<%planTemplate_3PlanLg_9%>
+</div>
+ 
+<div class="clearfix"></div>
+ 
+<hr class="sync-wall-hr" />
+ 
+<div class="sync-mobile">
+<div class="sync-row sync-auth-row-msg">
+<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
+</div>
+<div class="sync-row sync-wall-signin-area">
+<button class="sync-btn btn-flat tablet-click">
+<span class="sync-wall-button-font">SIGN IN</span>
+</button>
+</div>
+</div>
+<div class="sync-tablet">
+<div class="sync-row sync-wall-signin-area">
+<div class="sync-auth-part">
+<span class="sync-wall-font6">If you are a subscriber, sign in!</span>
+</div>
+<div class="sync-auth-part">
+<input type="checkbox" class="tablet-click" id="rememberme" />
+<label for="rememberme" class="sync-wall-font7">
+STAY SIGNED IN
+</label>
+</div>
+</div>
+<div class="sync-row sync-wall-signin-area">
+<div id="treg-container" class="treg-gya-synx-overlay-login-widget">
+<!-- the treg logon widget will get inserted here -->
+</div>
+</div>
+</div>
+</div>
+</div>

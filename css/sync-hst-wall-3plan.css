@@ -2144,6 +2144,9 @@
   width: 100%;
   white-space: nowrap;
 }
+.sync-wrap {
+  white-space: normal;
+}
 .sync-col {
   float: left;
   border: 1px solid blue;

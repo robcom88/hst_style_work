@@ -56,7 +56,7 @@
  
 <div class="sync-mobile">
 	<div class="sync-row sync-auth-row-msg">
-		<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
+		<span class="sync-wall-font6 sync-wrap"><%existingSubscriberMsg%></span>
     </div>
     <div class="sync-row sync-wall-signin-area">
 
@@ -67,6 +67,10 @@
 	</div>
 </div>
 <div class="sync-tablet">
+    <div class="sync-row sync-auth-row-msg">
+        <span class="sync-wall-font6 sync-wrap"><%existingSubscriberMsg%></span>
+    </div>
+    
 	<div class="sync-row sync-wall-signin-area">
 		<div id="treg-container" class="treg-gya-synx-offers-login-widget">
 		<!-- the treg logon widget will get inserted here -->

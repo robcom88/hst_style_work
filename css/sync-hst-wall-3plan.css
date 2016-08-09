@@ -2204,7 +2204,8 @@ a.sync-btn {
 .syncronex-wall-overlay-content {
   background-color: #FFFFFF;
   margin: auto;
-  height: 500px;
+  height: 95%;
+  max-height: 95%;
   max-width: 95%;
   z-index: 2147483610;
 }
@@ -2496,7 +2497,7 @@ input[type=checkbox].sync-toggle:checked + .sync-toggle-content {
   display: block;
 }
 /* optional: use this to hide the toggler (button, etc.)*/
-input[type=checkbox].sync-toggle:checked ~ .sync-toggle {
+input[type=checkbox].sync-toggle:checked ~ .sync-toggle-off {
   display: none;
 }
 /* end mobile breakpoint sign-in toggle button*/

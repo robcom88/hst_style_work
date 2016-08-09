@@ -50,10 +50,12 @@
             <%planTemplate_3PlanLg_9%>
         </div>
 
-        <div class="clearfix"></div>
         <div class="sync-tablet sync-row sync-wall-subtitle-row text-center">
             <span class="sync-wall-font2"><%existingSubscriberMsg%></span>
         </div>
+
+        <div class="clearfix"></div>
+        
 
         <hr class="sync-wall-hr" />
 

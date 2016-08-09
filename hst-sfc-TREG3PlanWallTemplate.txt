@@ -1,6 +1,16 @@
 <input type="hidden" value="<%urlBase%>" />
 <div class="sync-paymeter">
-<div class="sync-wall-content-padding">
+    <input id="loginForm-toggle" type="checkbox" class="sync-toggle" />
+    <div id="loginForm" class="sync-toggle-content">
+        <div class="sync-wall-content-padding">
+            <div id="treg-container" class="treg-gya-synx-offers-login-widget">
+                login form!
+            </div>
+        </div>
+    </div>
+
+<div class="sync-wall-content-padding sync-toggle-off">
+    
 <div class="sync-row sync-wall-title-row text-center">
 <span class="sync-wall-font1">
 <%wallHeadline%>
@@ -49,12 +59,6 @@
 		<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
     </div>
     <div class="sync-row sync-wall-signin-area">
-        <input id="loginForm-toggle" type="checkbox" class="sync-toggle"/>
-        <div id="loginForm" class="sync-row sync-toggle-content">
-            <div id="treg-container" class="treg-gya-synx-offers-login-widget">
-                <!-- the treg logon widget will get inserted here -->
-            </div>
-        </div>
 
         <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
             <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>

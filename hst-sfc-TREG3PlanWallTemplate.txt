@@ -9,73 +9,73 @@
         </div>
     </div>
 
-<div class="sync-wall-content-padding sync-toggle-off">
-    
-<div class="sync-row sync-wall-title-row text-center">
-<span class="sync-wall-font1">
-<%wallHeadline%>
-</span>
-</div>
-<div class="sync-row sync-wall-subtitle-row text-center">
-<span class="sync-wall-font2">
-<%wallHeadline2%>
-</span>
-</div>
-<div class="sync-row sync-tablet text-center">
-<div class="sync-wall-benefit-headline sync-valign">
-<span class="sync-wall-font3"><%benefitsTitleMsg%></span>
-</div>
-</div>
-<div class="sync-row sync-tablet">
-<div class="sync-wall-benefit-features">
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
-</ul>
-</div>
-<div class="sync-wall-benefit-features">
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
-</ul>
-</div>
-</div>
- 
-<div class="sync-row sync-wall-offers-row">
-<%planTemplate_3PlanSm_1%>
-<%planTemplate_3PlanSm_5%>
-<%planTemplate_3PlanSm_9%>
-<%planTemplate_3PlanLg_1%>
-<%planTemplate_3PlanLg_5%>
-<%planTemplate_3PlanLg_9%>
-</div>
- 
-<div class="clearfix"></div>
- 
-<hr class="sync-wall-hr" />
- 
-<div class="sync-mobile">
-	<div class="sync-row sync-auth-row-msg">
-		<span class="sync-wall-font6 sync-wrap"><%existingSubscriberMsg%></span>
-    </div>
-    <div class="sync-row sync-wall-signin-area">
+    <div class="sync-wall-content-padding sync-toggle-off">
 
-        <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
-            <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>
-        </label>
+        <div class="sync-row sync-wall-title-row text-center">
+            <span class="sync-wall-font1">
+                <%wallHeadline%>
+            </span>
+        </div>
+        <div class="sync-row sync-wall-subtitle-row text-center">
+            <span class="sync-wall-font2">
+                <%wallHeadline2%>
+            </span>
+        </div>
+        <div class="sync-row sync-tablet text-center">
+            <div class="sync-wall-benefit-headline sync-valign">
+                <span class="sync-wall-font3"><%benefitsTitleMsg%></span>
+            </div>
+        </div>
+        <div class="sync-row sync-tablet">
+            <div class="sync-wall-benefit-features">
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
+                </ul>
+            </div>
+            <div class="sync-wall-benefit-features">
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
+                </ul>
+            </div>
+        </div>
 
-	</div>
-</div>
-<div class="sync-tablet">
-    <div class="sync-row sync-auth-row-msg">
-        <span class="sync-wall-font6 sync-wrap"><%existingSubscriberMsg%></span>
+        <div class="sync-row sync-wall-offers-row">
+            <%planTemplate_3PlanSm_1%>
+            <%planTemplate_3PlanSm_5%>
+            <%planTemplate_3PlanSm_9%>
+            <%planTemplate_3PlanLg_1%>
+            <%planTemplate_3PlanLg_5%>
+            <%planTemplate_3PlanLg_9%>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="sync-tablet sync-row sync-wall-subtitle-row text-center">
+            <span class="sync-wall-font2"><%existingSubscriberMsg%></span>
+        </div>
+
+        <hr class="sync-wall-hr" />
+
+        <div class="sync-mobile">
+            <div class="sync-row sync-auth-row-msg">
+                <span class="sync-wall-font6 sync-wrap"><%existingSubscriberMsg%></span>
+            </div>
+            <div class="sync-row sync-wall-signin-area">
+
+                <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
+                    <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>
+                </label>
+
+            </div>
+        </div>
+        <div class="sync-tablet">
+
+            <div class="sync-row sync-wall-signin-area">
+                <div id="treg-container" class="treg-gya-synx-offers-login-widget">
+                    <!-- the treg logon widget will get inserted here -->
+                </div>
+            </div>
+        </div>
     </div>
-    
-	<div class="sync-row sync-wall-signin-area">
-		<div id="treg-container" class="treg-gya-synx-offers-login-widget">
-		<!-- the treg logon widget will get inserted here -->
-		</div>
-	</div>
-</div>
-</div>
 </div>

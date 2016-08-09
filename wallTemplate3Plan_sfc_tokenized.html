@@ -11,98 +11,205 @@
 	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
     <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
     <link rel="stylesheet" href="css/sync-hst-wall-3plan.min.css">
+	
 </head>
 <body>
-    <div class="sync-paymeter">
-        <div class="syncronex-wall-overlay"></div>
-        <div id="syncronexOverlayContainer" class="syncronex-wall-overlay-container">
-            <div id="syncronexOverlayContent" class="syncronex-wall-overlay-content">
-                <!-- Overlay Snippet starts here -->
-                <div class="sync-wall-content-padding">
-                    <div class="sync-row sync-wall-title-row text-center">
-                        <span class="sync-wall-font1">
-                            <%wallHeadline%>
-                        </span>
-                    </div>
-                    <div class="sync-row sync-wall-subtitle-row text-center">
-                        <span class="sync-wall-font2">
-                            <%wallHeadline2%>
-                        </span>
-                    </div>
-                    <div class="sync-row sync-tablet text-center">
-                        <div class="sync-wall-benefit-headline sync-valign">
-                            <span class="sync-wall-font3"><%benefitsTitleMsg%></span>
-                        </div>
-                    </div>
-                    <div class="sync-row sync-tablet">
-                        <div class="sync-wall-benefit-features">
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
-                                <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
-                            </ul>
-                        </div>
-                        <div class="sync-wall-benefit-features">
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
-                                <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
-                            </ul>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="span8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
 
-                    <div class="sync-row sync-wall-offers-row">
-                        <%planTemplate_3PlanSm_1%>
-                        <%planTemplate_3PlanSm_2%>
-                        <%planTemplate_3PlanSm_3%>
-                        <%planTemplate_3PlanLg_1%>
-                        <%planTemplate_3PlanLg_2%>
-                        <%planTemplate_3PlanLg_3%>
-                    </div>
+            <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
 
-                    <div class="clearfix"></div>
+            <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. </p>
 
-                    <hr class="sync-wall-hr" />
+            <p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. </p>
 
-                    <div class="sync-mobile">
-                        <div class="sync-row sync-auth-row-msg">
-                            <span class="sync-wall-font6"><%existingSubscriberMsg%></span>
-                        </div>
-                        <div class="sync-row sync-wall-signin-area">
-                            <button class="sync-btn btn-flat tablet-click">
-                                <span class="sync-wall-button-font">SIGN IN</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="sync-tablet">
-                        <div class="sync-row sync-wall-signin-area">
-                            <div class="sync-auth-part">
-                                <span class="sync-wall-font6">If you are a subscriber, sign in!</span>
-                            </div>
-                            <div class="sync-auth-part">
-                                <input type="checkbox" class="tablet-click" id="rememberme" />
-                                <label for="rememberme" class="sync-wall-font7">
-                                    STAY SIGNED IN
-                                </label>
-                            </div>
-                        </div>
-                        <div class="sync-row sync-wall-signin-area">
-                            <div class="sync-auth-part sync-auth-form-container">
-                                <form id="saloginform">
-                                    <input type="email" class="input-flat" placeholder="EMAIL" id="email" />
-                                    <input type="password" class="input-flat" placeholder="PASSWORD" id="password" />
-                                    <button type="button" class="sync-btn btn-flat">
-                                        <span class="sync-wall-button-font">SIGN IN</span>
-                                    </button>
-                                    <a href="#" class="bottom-right">
-                                        <span class="sync-wall-font7">FORGOT PASSWORD?</span>
-                                    </a>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Overlay Snippet ends here -->
+            <p>Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. </p>
+
+            <p>Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. </p>
+
+            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p>
+
+        </div>
+          <div class="span4">
+              <ul class="thumbnails">
+                  <li class="span4">
+                      <div class="thumbnail">
+                          <div class="caption">
+                              <h3>Sidebar</h3>
+                              <p>
+                                  Quisque dignissim mollis cursus. Nunc tristique mollis felis ac suscipit. Morbi non vehicula ipsum. Vestibulum eu convallis sapien. Donec orci dolor, tempor sit amet fringilla vel, auctor eu diam. Donec fermentum purus quam, in pretium urna eleifend a. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ultricies nulla et lacus tincidunt, et convallis libero semper.
+                              </p>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+              <h4>Other News:</h4>
+              <div class="well">
+                  <ul class="nav nav-list">
+                      <li><a href="TopStory.html">Top Story</a></li>
+                      <li><a href="News2.html">News Story Two</a></li>
+                      <li><a href="News3.html">News Story Three</a></li>
+                      <li><a href="News4.html">News Story Four</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+	  <div class="row">
+        <div class="span8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+
+            <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+
+            <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. </p>
+
+            <p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. </p>
+
+            <p>Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. </p>
+
+            <p>Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. </p>
+
+            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p>
+        </div>
+		</div>
+	  <div class="row">
+        <div class="span8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+
+            <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+
+            <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. </p>
+
+            <p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. </p>
+
+            <p>Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. </p>
+
+            <p>Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. </p>
+
+            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p>
+
+        </div>
+
+		</div>
+        <div class="row">
+            <div class="span6">
+                <h4><a name="comments"></a>Comments</h4>
             </div>
         </div>
+        <div class="row">
+            <div class="span6">
+                <h5>Comment on this article:</h5>
+                <input type="text" class="input-block-level" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <h5>Previous Comments</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <h6>Jane Smith</h6>
+                Sed commodo laoreet aliquam. Ut vel porttitor nisi. Duis ac elit mi. Aliquam erat volutpat. Cras nibh mi, bibendum ut.
+                <br />
+                <small>June 3 at 9:22 a.m.</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <h6>John Doe</h6>
+                Ut faucibus ultrices turpis, eu tincidunt diam gravida id. Nunc convallis neque sit amet augue mattis tincidunt. Proin scelerisque pharetra accumsan. Maecenas vel lorem feugiat, eleifend neque sit amet, cursus.
+                <br />
+                <small>June 1 at 5:18 p.m.</small>
+            </div>
+        </div>
+      <hr>
+
+      <footer>
+        <p>&copy; Syncronex, LLC 2013</p>
+      </footer>
+	  
+
+        <div class="syncronex-wall-overlay"></div>
+        <div id="syncronexOverlayContainer" class="syncronex-wall-overlay-container"> 
+            <div id="syncronexOverlayContent" class="syncronex-wall-overlay-content">
+                <!-- Overlay Snippet starts here -->
+<input type="hidden" value="<%urlBase%>" />
+<div class="sync-paymeter">
+<div class="sync-wall-content-padding">
+<div class="sync-row sync-wall-title-row text-center">
+<span class="sync-wall-font1">
+<%wallHeadline%>
+</span>
+</div>
+<div class="sync-row sync-wall-subtitle-row text-center">
+<span class="sync-wall-font2">
+<%wallHeadline2%>
+</span>
+</div>
+<div class="sync-row sync-tablet text-center">
+<div class="sync-wall-benefit-headline sync-valign">
+<span class="sync-wall-font3"><%benefitsTitleMsg%></span>
+</div>
+</div>
+<div class="sync-row sync-tablet">
+<div class="sync-wall-benefit-features">
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
+</ul>
+</div>
+<div class="sync-wall-benefit-features">
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
+<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
+</ul>
+</div>
+</div>
+ 
+<div class="sync-row sync-wall-offers-row">
+<%planTemplate_3PlanSm_1%>
+<%planTemplate_3PlanSm_5%>
+<%planTemplate_3PlanSm_9%>
+<%planTemplate_3PlanLg_1%>
+<%planTemplate_3PlanLg_5%>
+<%planTemplate_3PlanLg_9%>
+</div>
+ 
+<div class="clearfix"></div>
+ 
+<hr class="sync-wall-hr" />
+ 
+<div class="sync-mobile">
+	<div class="sync-row sync-auth-row-msg">
+		<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
     </div>
+    <div class="sync-row sync-wall-signin-area">
+        <input id="loginForm-toggle" type="checkbox" class="sync-toggle"/>
+        <div id="loginForm" class="sync-row sync-toggle-content">
+            <div id="treg-container" class="treg-gya-synx-offers-login-widget">
+                <!-- the treg logon widget will get inserted here -->
+            </div>
+        </div>
+
+        <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
+            <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>
+        </label>
+
+	</div>
+</div>
+<div class="sync-tablet">
+	<div class="sync-row sync-wall-signin-area">
+		<div id="treg-container" class="treg-gya-synx-offers-login-widget">
+		<!-- the treg logon widget will get inserted here -->
+		</div>
+	</div>
+</div>
+</div>
+</div>
+                <!-- Overlay Snippet ends here -->
+            </div>
+        </div> 
+    
 </body>
 </html>

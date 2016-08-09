@@ -47,11 +47,19 @@
 <div class="sync-mobile">
 	<div class="sync-row sync-auth-row-msg">
 		<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
-	</div>
-	<div class="sync-row sync-wall-signin-area">
-		<button class="sync-btn btn-flat tablet-click">
-			<span class="sync-wall-button-font">SIGN IN</span>
-		</button>
+    </div>
+    <div class="sync-row sync-wall-signin-area">
+        <input id="loginForm-toggle" type="checkbox" class="sync-toggle"/>
+        <div id="loginForm" class="sync-row sync-toggle-content">
+            <div id="treg-container" class="treg-gya-synx-offers-login-widget">
+                <!-- the treg logon widget will get inserted here -->
+            </div>
+        </div>
+
+        <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
+            <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>
+        </label>
+
 	</div>
 </div>
 <div class="sync-tablet">

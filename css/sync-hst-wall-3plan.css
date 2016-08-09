@@ -9,8 +9,6 @@
   /* Deprecated as of 4.4.0 */
   /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-  
-  line-height: normal;
 }
 @font-face {
   font-family: 'FontAwesome';
@@ -2318,7 +2316,6 @@ div.border-left {
 }
 .sync-wall-title-row {
   white-space: initial;
-  margin-top: 50px;
 }
 .sync-wall-subtitle-row {
   margin-top: 12px;
@@ -2413,7 +2410,6 @@ div.border-left {
   color: #ccc;
   background-color: #ccc;
   margin-top: 14px;
-  margin-bottom: 0;
 }
 .sync-wall-signin-area {
   padding-left: 0;
@@ -2450,6 +2446,60 @@ div.border-left {
   height: 30px;
   background-color: #222;
 }
+/* support for mobile breakpoint sign-in toggle button*/
+label.sync-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.sync-wall-signin-area label.sync-btn {
+  width: 75%;
+  height: 30px;
+  background-color: #222;
+}
+.sync-wall-signin-area label.sync-btn span {
+  line-height: 30px;
+}
+/* next two styles create the clickable area around the label*/
+.sync-wall-signin-area label.sync-btn {
+  position: relative;
+}
+.sync-wall-signin-area label.sync-btn:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+}
+/* 
+    general support for the 'toggling' 
+    use a checkbox input type with class='sync-toggle'
+    followed immediately by a block element with class='sync-toggle-content'
+    then a <label> for the checkbox that is styled to look like a button, link, etc
+    to trigger the toggle.
+*/
+input[type=checkbox].sync-toggle {
+  display: none;
+  /* keep the actual checkbox hidden */
+}
+/* Content hidden until user clicks */
+.sync-toggle-content {
+  display: none;
+}
+/* display hiddent content if checkbox is checked*/
+input[type=checkbox].sync-toggle:checked + .sync-toggle-content {
+  display: block;
+}
+/* optional: use this to hide the toggler (button, etc.)*/
+input[type=checkbox].sync-toggle:checked ~ .sync-toggle {
+  display: none;
+}
+/* end mobile breakpoint sign-in toggle button*/
 button.sync-wall-offer-btn {
   background-color: #EE3948;
   margin-top: 46px;
@@ -2500,7 +2550,6 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
-    line-height: normal;
   }
   .sync-wall-plan-template-lg div {
     height: 40px;
@@ -2517,7 +2566,6 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     margin-right: 0;
     margin-left: 0;
     white-space: normal;
-    line-height: normal;
   }
   .sync-wall-subtitle-row {
     margin-top: 10px;
@@ -2526,7 +2574,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     padding-top: 15px;
   }
   .sync-wall-signin-area {
-    margin-top: 0;
+    margin-top: 10px;
     text-align: left;
     /*border:1px solid green;*/
   }

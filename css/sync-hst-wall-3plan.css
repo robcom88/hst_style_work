@@ -2198,6 +2198,7 @@ a.sync-btn {
 .syncronex-wall-overlay-container {
   visibility: visible;
   position: fixed;
+  overflow-y: scroll;
   top: 0px;
   left: 0px;
   height: 100%;
@@ -2527,7 +2528,6 @@ button.sync-wall-offer-btn .sync-wall-button-font {
 .row-spacer {
   padding-top: 0px;
 }
-/* Set the height smaller for anything larger than phone view */
 /* 601-767 is still considered a 'tablet' display by Hearst*/
 @media screen and (min-width: 601px) {
   .sync-tablet {

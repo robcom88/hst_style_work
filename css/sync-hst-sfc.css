@@ -16,6 +16,16 @@
  */
   /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
   /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+  /*!
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+  /* FONT PATH
+ * -------------------------- */
+  /* makes the font 33% larger relative to the icon container */
+  /* Deprecated as of 4.4.0 */
+  /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
 }
 .sync-paymeter html {
   font-family: sans-serif;
@@ -5313,6 +5323,2082 @@
     display: none !important;
   }
 }
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot?v=4.5.0');
+  src: url('fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('fontawesome-webfont.woff?v=4.5.0') format('woff'), url('fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.sync-paymeter .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sync-paymeter .fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.sync-paymeter .fa-2x {
+  font-size: 2em;
+}
+.sync-paymeter .fa-3x {
+  font-size: 3em;
+}
+.sync-paymeter .fa-4x {
+  font-size: 4em;
+}
+.sync-paymeter .fa-5x {
+  font-size: 5em;
+}
+.sync-paymeter .fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.sync-paymeter .fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.sync-paymeter .fa-ul > li {
+  position: relative;
+}
+.sync-paymeter .fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.sync-paymeter .fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.sync-paymeter .fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.sync-paymeter .fa-pull-left {
+  float: left;
+}
+.sync-paymeter .fa-pull-right {
+  float: right;
+}
+.sync-paymeter .fa.fa-pull-left {
+  margin-right: .3em;
+}
+.sync-paymeter .fa.fa-pull-right {
+  margin-left: .3em;
+}
+.sync-paymeter .pull-right {
+  float: right;
+}
+.sync-paymeter .pull-left {
+  float: left;
+}
+.sync-paymeter .fa.pull-left {
+  margin-right: .3em;
+}
+.sync-paymeter .fa.pull-right {
+  margin-left: .3em;
+}
+.sync-paymeter .fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.sync-paymeter .fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.sync-paymeter .fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.sync-paymeter .fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.sync-paymeter .fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.sync-paymeter .fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.sync-paymeter .fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.sync-paymeter :root .fa-rotate-90,
+.sync-paymeter :root .fa-rotate-180,
+.sync-paymeter :root .fa-rotate-270,
+.sync-paymeter :root .fa-flip-horizontal,
+.sync-paymeter :root .fa-flip-vertical {
+  filter: none;
+}
+.sync-paymeter .fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.sync-paymeter .fa-stack-1x,
+.sync-paymeter .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.sync-paymeter .fa-stack-1x {
+  line-height: inherit;
+}
+.sync-paymeter .fa-stack-2x {
+  font-size: 2em;
+}
+.sync-paymeter .fa-inverse {
+  color: #ffffff;
+}
+.sync-paymeter .fa-glass:before {
+  content: "\f000";
+}
+.sync-paymeter .fa-music:before {
+  content: "\f001";
+}
+.sync-paymeter .fa-search:before {
+  content: "\f002";
+}
+.sync-paymeter .fa-envelope-o:before {
+  content: "\f003";
+}
+.sync-paymeter .fa-heart:before {
+  content: "\f004";
+}
+.sync-paymeter .fa-star:before {
+  content: "\f005";
+}
+.sync-paymeter .fa-star-o:before {
+  content: "\f006";
+}
+.sync-paymeter .fa-user:before {
+  content: "\f007";
+}
+.sync-paymeter .fa-film:before {
+  content: "\f008";
+}
+.sync-paymeter .fa-th-large:before {
+  content: "\f009";
+}
+.sync-paymeter .fa-th:before {
+  content: "\f00a";
+}
+.sync-paymeter .fa-th-list:before {
+  content: "\f00b";
+}
+.sync-paymeter .fa-check:before {
+  content: "\f00c";
+}
+.sync-paymeter .fa-remove:before,
+.sync-paymeter .fa-close:before,
+.sync-paymeter .fa-times:before {
+  content: "\f00d";
+}
+.sync-paymeter .fa-search-plus:before {
+  content: "\f00e";
+}
+.sync-paymeter .fa-search-minus:before {
+  content: "\f010";
+}
+.sync-paymeter .fa-power-off:before {
+  content: "\f011";
+}
+.sync-paymeter .fa-signal:before {
+  content: "\f012";
+}
+.sync-paymeter .fa-gear:before,
+.sync-paymeter .fa-cog:before {
+  content: "\f013";
+}
+.sync-paymeter .fa-trash-o:before {
+  content: "\f014";
+}
+.sync-paymeter .fa-home:before {
+  content: "\f015";
+}
+.sync-paymeter .fa-file-o:before {
+  content: "\f016";
+}
+.sync-paymeter .fa-clock-o:before {
+  content: "\f017";
+}
+.sync-paymeter .fa-road:before {
+  content: "\f018";
+}
+.sync-paymeter .fa-download:before {
+  content: "\f019";
+}
+.sync-paymeter .fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+.sync-paymeter .fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+.sync-paymeter .fa-inbox:before {
+  content: "\f01c";
+}
+.sync-paymeter .fa-play-circle-o:before {
+  content: "\f01d";
+}
+.sync-paymeter .fa-rotate-right:before,
+.sync-paymeter .fa-repeat:before {
+  content: "\f01e";
+}
+.sync-paymeter .fa-refresh:before {
+  content: "\f021";
+}
+.sync-paymeter .fa-list-alt:before {
+  content: "\f022";
+}
+.sync-paymeter .fa-lock:before {
+  content: "\f023";
+}
+.sync-paymeter .fa-flag:before {
+  content: "\f024";
+}
+.sync-paymeter .fa-headphones:before {
+  content: "\f025";
+}
+.sync-paymeter .fa-volume-off:before {
+  content: "\f026";
+}
+.sync-paymeter .fa-volume-down:before {
+  content: "\f027";
+}
+.sync-paymeter .fa-volume-up:before {
+  content: "\f028";
+}
+.sync-paymeter .fa-qrcode:before {
+  content: "\f029";
+}
+.sync-paymeter .fa-barcode:before {
+  content: "\f02a";
+}
+.sync-paymeter .fa-tag:before {
+  content: "\f02b";
+}
+.sync-paymeter .fa-tags:before {
+  content: "\f02c";
+}
+.sync-paymeter .fa-book:before {
+  content: "\f02d";
+}
+.sync-paymeter .fa-bookmark:before {
+  content: "\f02e";
+}
+.sync-paymeter .fa-print:before {
+  content: "\f02f";
+}
+.sync-paymeter .fa-camera:before {
+  content: "\f030";
+}
+.sync-paymeter .fa-font:before {
+  content: "\f031";
+}
+.sync-paymeter .fa-bold:before {
+  content: "\f032";
+}
+.sync-paymeter .fa-italic:before {
+  content: "\f033";
+}
+.sync-paymeter .fa-text-height:before {
+  content: "\f034";
+}
+.sync-paymeter .fa-text-width:before {
+  content: "\f035";
+}
+.sync-paymeter .fa-align-left:before {
+  content: "\f036";
+}
+.sync-paymeter .fa-align-center:before {
+  content: "\f037";
+}
+.sync-paymeter .fa-align-right:before {
+  content: "\f038";
+}
+.sync-paymeter .fa-align-justify:before {
+  content: "\f039";
+}
+.sync-paymeter .fa-list:before {
+  content: "\f03a";
+}
+.sync-paymeter .fa-dedent:before,
+.sync-paymeter .fa-outdent:before {
+  content: "\f03b";
+}
+.sync-paymeter .fa-indent:before {
+  content: "\f03c";
+}
+.sync-paymeter .fa-video-camera:before {
+  content: "\f03d";
+}
+.sync-paymeter .fa-photo:before,
+.sync-paymeter .fa-image:before,
+.sync-paymeter .fa-picture-o:before {
+  content: "\f03e";
+}
+.sync-paymeter .fa-pencil:before {
+  content: "\f040";
+}
+.sync-paymeter .fa-map-marker:before {
+  content: "\f041";
+}
+.sync-paymeter .fa-adjust:before {
+  content: "\f042";
+}
+.sync-paymeter .fa-tint:before {
+  content: "\f043";
+}
+.sync-paymeter .fa-edit:before,
+.sync-paymeter .fa-pencil-square-o:before {
+  content: "\f044";
+}
+.sync-paymeter .fa-share-square-o:before {
+  content: "\f045";
+}
+.sync-paymeter .fa-check-square-o:before {
+  content: "\f046";
+}
+.sync-paymeter .fa-arrows:before {
+  content: "\f047";
+}
+.sync-paymeter .fa-step-backward:before {
+  content: "\f048";
+}
+.sync-paymeter .fa-fast-backward:before {
+  content: "\f049";
+}
+.sync-paymeter .fa-backward:before {
+  content: "\f04a";
+}
+.sync-paymeter .fa-play:before {
+  content: "\f04b";
+}
+.sync-paymeter .fa-pause:before {
+  content: "\f04c";
+}
+.sync-paymeter .fa-stop:before {
+  content: "\f04d";
+}
+.sync-paymeter .fa-forward:before {
+  content: "\f04e";
+}
+.sync-paymeter .fa-fast-forward:before {
+  content: "\f050";
+}
+.sync-paymeter .fa-step-forward:before {
+  content: "\f051";
+}
+.sync-paymeter .fa-eject:before {
+  content: "\f052";
+}
+.sync-paymeter .fa-chevron-left:before {
+  content: "\f053";
+}
+.sync-paymeter .fa-chevron-right:before {
+  content: "\f054";
+}
+.sync-paymeter .fa-plus-circle:before {
+  content: "\f055";
+}
+.sync-paymeter .fa-minus-circle:before {
+  content: "\f056";
+}
+.sync-paymeter .fa-times-circle:before {
+  content: "\f057";
+}
+.sync-paymeter .fa-check-circle:before {
+  content: "\f058";
+}
+.sync-paymeter .fa-question-circle:before {
+  content: "\f059";
+}
+.sync-paymeter .fa-info-circle:before {
+  content: "\f05a";
+}
+.sync-paymeter .fa-crosshairs:before {
+  content: "\f05b";
+}
+.sync-paymeter .fa-times-circle-o:before {
+  content: "\f05c";
+}
+.sync-paymeter .fa-check-circle-o:before {
+  content: "\f05d";
+}
+.sync-paymeter .fa-ban:before {
+  content: "\f05e";
+}
+.sync-paymeter .fa-arrow-left:before {
+  content: "\f060";
+}
+.sync-paymeter .fa-arrow-right:before {
+  content: "\f061";
+}
+.sync-paymeter .fa-arrow-up:before {
+  content: "\f062";
+}
+.sync-paymeter .fa-arrow-down:before {
+  content: "\f063";
+}
+.sync-paymeter .fa-mail-forward:before,
+.sync-paymeter .fa-share:before {
+  content: "\f064";
+}
+.sync-paymeter .fa-expand:before {
+  content: "\f065";
+}
+.sync-paymeter .fa-compress:before {
+  content: "\f066";
+}
+.sync-paymeter .fa-plus:before {
+  content: "\f067";
+}
+.sync-paymeter .fa-minus:before {
+  content: "\f068";
+}
+.sync-paymeter .fa-asterisk:before {
+  content: "\f069";
+}
+.sync-paymeter .fa-exclamation-circle:before {
+  content: "\f06a";
+}
+.sync-paymeter .fa-gift:before {
+  content: "\f06b";
+}
+.sync-paymeter .fa-leaf:before {
+  content: "\f06c";
+}
+.sync-paymeter .fa-fire:before {
+  content: "\f06d";
+}
+.sync-paymeter .fa-eye:before {
+  content: "\f06e";
+}
+.sync-paymeter .fa-eye-slash:before {
+  content: "\f070";
+}
+.sync-paymeter .fa-warning:before,
+.sync-paymeter .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+.sync-paymeter .fa-plane:before {
+  content: "\f072";
+}
+.sync-paymeter .fa-calendar:before {
+  content: "\f073";
+}
+.sync-paymeter .fa-random:before {
+  content: "\f074";
+}
+.sync-paymeter .fa-comment:before {
+  content: "\f075";
+}
+.sync-paymeter .fa-magnet:before {
+  content: "\f076";
+}
+.sync-paymeter .fa-chevron-up:before {
+  content: "\f077";
+}
+.sync-paymeter .fa-chevron-down:before {
+  content: "\f078";
+}
+.sync-paymeter .fa-retweet:before {
+  content: "\f079";
+}
+.sync-paymeter .fa-shopping-cart:before {
+  content: "\f07a";
+}
+.sync-paymeter .fa-folder:before {
+  content: "\f07b";
+}
+.sync-paymeter .fa-folder-open:before {
+  content: "\f07c";
+}
+.sync-paymeter .fa-arrows-v:before {
+  content: "\f07d";
+}
+.sync-paymeter .fa-arrows-h:before {
+  content: "\f07e";
+}
+.sync-paymeter .fa-bar-chart-o:before,
+.sync-paymeter .fa-bar-chart:before {
+  content: "\f080";
+}
+.sync-paymeter .fa-twitter-square:before {
+  content: "\f081";
+}
+.sync-paymeter .fa-facebook-square:before {
+  content: "\f082";
+}
+.sync-paymeter .fa-camera-retro:before {
+  content: "\f083";
+}
+.sync-paymeter .fa-key:before {
+  content: "\f084";
+}
+.sync-paymeter .fa-gears:before,
+.sync-paymeter .fa-cogs:before {
+  content: "\f085";
+}
+.sync-paymeter .fa-comments:before {
+  content: "\f086";
+}
+.sync-paymeter .fa-thumbs-o-up:before {
+  content: "\f087";
+}
+.sync-paymeter .fa-thumbs-o-down:before {
+  content: "\f088";
+}
+.sync-paymeter .fa-star-half:before {
+  content: "\f089";
+}
+.sync-paymeter .fa-heart-o:before {
+  content: "\f08a";
+}
+.sync-paymeter .fa-sign-out:before {
+  content: "\f08b";
+}
+.sync-paymeter .fa-linkedin-square:before {
+  content: "\f08c";
+}
+.sync-paymeter .fa-thumb-tack:before {
+  content: "\f08d";
+}
+.sync-paymeter .fa-external-link:before {
+  content: "\f08e";
+}
+.sync-paymeter .fa-sign-in:before {
+  content: "\f090";
+}
+.sync-paymeter .fa-trophy:before {
+  content: "\f091";
+}
+.sync-paymeter .fa-github-square:before {
+  content: "\f092";
+}
+.sync-paymeter .fa-upload:before {
+  content: "\f093";
+}
+.sync-paymeter .fa-lemon-o:before {
+  content: "\f094";
+}
+.sync-paymeter .fa-phone:before {
+  content: "\f095";
+}
+.sync-paymeter .fa-square-o:before {
+  content: "\f096";
+}
+.sync-paymeter .fa-bookmark-o:before {
+  content: "\f097";
+}
+.sync-paymeter .fa-phone-square:before {
+  content: "\f098";
+}
+.sync-paymeter .fa-twitter:before {
+  content: "\f099";
+}
+.sync-paymeter .fa-facebook-f:before,
+.sync-paymeter .fa-facebook:before {
+  content: "\f09a";
+}
+.sync-paymeter .fa-github:before {
+  content: "\f09b";
+}
+.sync-paymeter .fa-unlock:before {
+  content: "\f09c";
+}
+.sync-paymeter .fa-credit-card:before {
+  content: "\f09d";
+}
+.sync-paymeter .fa-feed:before,
+.sync-paymeter .fa-rss:before {
+  content: "\f09e";
+}
+.sync-paymeter .fa-hdd-o:before {
+  content: "\f0a0";
+}
+.sync-paymeter .fa-bullhorn:before {
+  content: "\f0a1";
+}
+.sync-paymeter .fa-bell:before {
+  content: "\f0f3";
+}
+.sync-paymeter .fa-certificate:before {
+  content: "\f0a3";
+}
+.sync-paymeter .fa-hand-o-right:before {
+  content: "\f0a4";
+}
+.sync-paymeter .fa-hand-o-left:before {
+  content: "\f0a5";
+}
+.sync-paymeter .fa-hand-o-up:before {
+  content: "\f0a6";
+}
+.sync-paymeter .fa-hand-o-down:before {
+  content: "\f0a7";
+}
+.sync-paymeter .fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.sync-paymeter .fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.sync-paymeter .fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.sync-paymeter .fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.sync-paymeter .fa-globe:before {
+  content: "\f0ac";
+}
+.sync-paymeter .fa-wrench:before {
+  content: "\f0ad";
+}
+.sync-paymeter .fa-tasks:before {
+  content: "\f0ae";
+}
+.sync-paymeter .fa-filter:before {
+  content: "\f0b0";
+}
+.sync-paymeter .fa-briefcase:before {
+  content: "\f0b1";
+}
+.sync-paymeter .fa-arrows-alt:before {
+  content: "\f0b2";
+}
+.sync-paymeter .fa-group:before,
+.sync-paymeter .fa-users:before {
+  content: "\f0c0";
+}
+.sync-paymeter .fa-chain:before,
+.sync-paymeter .fa-link:before {
+  content: "\f0c1";
+}
+.sync-paymeter .fa-cloud:before {
+  content: "\f0c2";
+}
+.sync-paymeter .fa-flask:before {
+  content: "\f0c3";
+}
+.sync-paymeter .fa-cut:before,
+.sync-paymeter .fa-scissors:before {
+  content: "\f0c4";
+}
+.sync-paymeter .fa-copy:before,
+.sync-paymeter .fa-files-o:before {
+  content: "\f0c5";
+}
+.sync-paymeter .fa-paperclip:before {
+  content: "\f0c6";
+}
+.sync-paymeter .fa-save:before,
+.sync-paymeter .fa-floppy-o:before {
+  content: "\f0c7";
+}
+.sync-paymeter .fa-square:before {
+  content: "\f0c8";
+}
+.sync-paymeter .fa-navicon:before,
+.sync-paymeter .fa-reorder:before,
+.sync-paymeter .fa-bars:before {
+  content: "\f0c9";
+}
+.sync-paymeter .fa-list-ul:before {
+  content: "\f0ca";
+}
+.sync-paymeter .fa-list-ol:before {
+  content: "\f0cb";
+}
+.sync-paymeter .fa-strikethrough:before {
+  content: "\f0cc";
+}
+.sync-paymeter .fa-underline:before {
+  content: "\f0cd";
+}
+.sync-paymeter .fa-table:before {
+  content: "\f0ce";
+}
+.sync-paymeter .fa-magic:before {
+  content: "\f0d0";
+}
+.sync-paymeter .fa-truck:before {
+  content: "\f0d1";
+}
+.sync-paymeter .fa-pinterest:before {
+  content: "\f0d2";
+}
+.sync-paymeter .fa-pinterest-square:before {
+  content: "\f0d3";
+}
+.sync-paymeter .fa-google-plus-square:before {
+  content: "\f0d4";
+}
+.sync-paymeter .fa-google-plus:before {
+  content: "\f0d5";
+}
+.sync-paymeter .fa-money:before {
+  content: "\f0d6";
+}
+.sync-paymeter .fa-caret-down:before {
+  content: "\f0d7";
+}
+.sync-paymeter .fa-caret-up:before {
+  content: "\f0d8";
+}
+.sync-paymeter .fa-caret-left:before {
+  content: "\f0d9";
+}
+.sync-paymeter .fa-caret-right:before {
+  content: "\f0da";
+}
+.sync-paymeter .fa-columns:before {
+  content: "\f0db";
+}
+.sync-paymeter .fa-unsorted:before,
+.sync-paymeter .fa-sort:before {
+  content: "\f0dc";
+}
+.sync-paymeter .fa-sort-down:before,
+.sync-paymeter .fa-sort-desc:before {
+  content: "\f0dd";
+}
+.sync-paymeter .fa-sort-up:before,
+.sync-paymeter .fa-sort-asc:before {
+  content: "\f0de";
+}
+.sync-paymeter .fa-envelope:before {
+  content: "\f0e0";
+}
+.sync-paymeter .fa-linkedin:before {
+  content: "\f0e1";
+}
+.sync-paymeter .fa-rotate-left:before,
+.sync-paymeter .fa-undo:before {
+  content: "\f0e2";
+}
+.sync-paymeter .fa-legal:before,
+.sync-paymeter .fa-gavel:before {
+  content: "\f0e3";
+}
+.sync-paymeter .fa-dashboard:before,
+.sync-paymeter .fa-tachometer:before {
+  content: "\f0e4";
+}
+.sync-paymeter .fa-comment-o:before {
+  content: "\f0e5";
+}
+.sync-paymeter .fa-comments-o:before {
+  content: "\f0e6";
+}
+.sync-paymeter .fa-flash:before,
+.sync-paymeter .fa-bolt:before {
+  content: "\f0e7";
+}
+.sync-paymeter .fa-sitemap:before {
+  content: "\f0e8";
+}
+.sync-paymeter .fa-umbrella:before {
+  content: "\f0e9";
+}
+.sync-paymeter .fa-paste:before,
+.sync-paymeter .fa-clipboard:before {
+  content: "\f0ea";
+}
+.sync-paymeter .fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+.sync-paymeter .fa-exchange:before {
+  content: "\f0ec";
+}
+.sync-paymeter .fa-cloud-download:before {
+  content: "\f0ed";
+}
+.sync-paymeter .fa-cloud-upload:before {
+  content: "\f0ee";
+}
+.sync-paymeter .fa-user-md:before {
+  content: "\f0f0";
+}
+.sync-paymeter .fa-stethoscope:before {
+  content: "\f0f1";
+}
+.sync-paymeter .fa-suitcase:before {
+  content: "\f0f2";
+}
+.sync-paymeter .fa-bell-o:before {
+  content: "\f0a2";
+}
+.sync-paymeter .fa-coffee:before {
+  content: "\f0f4";
+}
+.sync-paymeter .fa-cutlery:before {
+  content: "\f0f5";
+}
+.sync-paymeter .fa-file-text-o:before {
+  content: "\f0f6";
+}
+.sync-paymeter .fa-building-o:before {
+  content: "\f0f7";
+}
+.sync-paymeter .fa-hospital-o:before {
+  content: "\f0f8";
+}
+.sync-paymeter .fa-ambulance:before {
+  content: "\f0f9";
+}
+.sync-paymeter .fa-medkit:before {
+  content: "\f0fa";
+}
+.sync-paymeter .fa-fighter-jet:before {
+  content: "\f0fb";
+}
+.sync-paymeter .fa-beer:before {
+  content: "\f0fc";
+}
+.sync-paymeter .fa-h-square:before {
+  content: "\f0fd";
+}
+.sync-paymeter .fa-plus-square:before {
+  content: "\f0fe";
+}
+.sync-paymeter .fa-angle-double-left:before {
+  content: "\f100";
+}
+.sync-paymeter .fa-angle-double-right:before {
+  content: "\f101";
+}
+.sync-paymeter .fa-angle-double-up:before {
+  content: "\f102";
+}
+.sync-paymeter .fa-angle-double-down:before {
+  content: "\f103";
+}
+.sync-paymeter .fa-angle-left:before {
+  content: "\f104";
+}
+.sync-paymeter .fa-angle-right:before {
+  content: "\f105";
+}
+.sync-paymeter .fa-angle-up:before {
+  content: "\f106";
+}
+.sync-paymeter .fa-angle-down:before {
+  content: "\f107";
+}
+.sync-paymeter .fa-desktop:before {
+  content: "\f108";
+}
+.sync-paymeter .fa-laptop:before {
+  content: "\f109";
+}
+.sync-paymeter .fa-tablet:before {
+  content: "\f10a";
+}
+.sync-paymeter .fa-mobile-phone:before,
+.sync-paymeter .fa-mobile:before {
+  content: "\f10b";
+}
+.sync-paymeter .fa-circle-o:before {
+  content: "\f10c";
+}
+.sync-paymeter .fa-quote-left:before {
+  content: "\f10d";
+}
+.sync-paymeter .fa-quote-right:before {
+  content: "\f10e";
+}
+.sync-paymeter .fa-spinner:before {
+  content: "\f110";
+}
+.sync-paymeter .fa-circle:before {
+  content: "\f111";
+}
+.sync-paymeter .fa-mail-reply:before,
+.sync-paymeter .fa-reply:before {
+  content: "\f112";
+}
+.sync-paymeter .fa-github-alt:before {
+  content: "\f113";
+}
+.sync-paymeter .fa-folder-o:before {
+  content: "\f114";
+}
+.sync-paymeter .fa-folder-open-o:before {
+  content: "\f115";
+}
+.sync-paymeter .fa-smile-o:before {
+  content: "\f118";
+}
+.sync-paymeter .fa-frown-o:before {
+  content: "\f119";
+}
+.sync-paymeter .fa-meh-o:before {
+  content: "\f11a";
+}
+.sync-paymeter .fa-gamepad:before {
+  content: "\f11b";
+}
+.sync-paymeter .fa-keyboard-o:before {
+  content: "\f11c";
+}
+.sync-paymeter .fa-flag-o:before {
+  content: "\f11d";
+}
+.sync-paymeter .fa-flag-checkered:before {
+  content: "\f11e";
+}
+.sync-paymeter .fa-terminal:before {
+  content: "\f120";
+}
+.sync-paymeter .fa-code:before {
+  content: "\f121";
+}
+.sync-paymeter .fa-mail-reply-all:before,
+.sync-paymeter .fa-reply-all:before {
+  content: "\f122";
+}
+.sync-paymeter .fa-star-half-empty:before,
+.sync-paymeter .fa-star-half-full:before,
+.sync-paymeter .fa-star-half-o:before {
+  content: "\f123";
+}
+.sync-paymeter .fa-location-arrow:before {
+  content: "\f124";
+}
+.sync-paymeter .fa-crop:before {
+  content: "\f125";
+}
+.sync-paymeter .fa-code-fork:before {
+  content: "\f126";
+}
+.sync-paymeter .fa-unlink:before,
+.sync-paymeter .fa-chain-broken:before {
+  content: "\f127";
+}
+.sync-paymeter .fa-question:before {
+  content: "\f128";
+}
+.sync-paymeter .fa-info:before {
+  content: "\f129";
+}
+.sync-paymeter .fa-exclamation:before {
+  content: "\f12a";
+}
+.sync-paymeter .fa-superscript:before {
+  content: "\f12b";
+}
+.sync-paymeter .fa-subscript:before {
+  content: "\f12c";
+}
+.sync-paymeter .fa-eraser:before {
+  content: "\f12d";
+}
+.sync-paymeter .fa-puzzle-piece:before {
+  content: "\f12e";
+}
+.sync-paymeter .fa-microphone:before {
+  content: "\f130";
+}
+.sync-paymeter .fa-microphone-slash:before {
+  content: "\f131";
+}
+.sync-paymeter .fa-shield:before {
+  content: "\f132";
+}
+.sync-paymeter .fa-calendar-o:before {
+  content: "\f133";
+}
+.sync-paymeter .fa-fire-extinguisher:before {
+  content: "\f134";
+}
+.sync-paymeter .fa-rocket:before {
+  content: "\f135";
+}
+.sync-paymeter .fa-maxcdn:before {
+  content: "\f136";
+}
+.sync-paymeter .fa-chevron-circle-left:before {
+  content: "\f137";
+}
+.sync-paymeter .fa-chevron-circle-right:before {
+  content: "\f138";
+}
+.sync-paymeter .fa-chevron-circle-up:before {
+  content: "\f139";
+}
+.sync-paymeter .fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+.sync-paymeter .fa-html5:before {
+  content: "\f13b";
+}
+.sync-paymeter .fa-css3:before {
+  content: "\f13c";
+}
+.sync-paymeter .fa-anchor:before {
+  content: "\f13d";
+}
+.sync-paymeter .fa-unlock-alt:before {
+  content: "\f13e";
+}
+.sync-paymeter .fa-bullseye:before {
+  content: "\f140";
+}
+.sync-paymeter .fa-ellipsis-h:before {
+  content: "\f141";
+}
+.sync-paymeter .fa-ellipsis-v:before {
+  content: "\f142";
+}
+.sync-paymeter .fa-rss-square:before {
+  content: "\f143";
+}
+.sync-paymeter .fa-play-circle:before {
+  content: "\f144";
+}
+.sync-paymeter .fa-ticket:before {
+  content: "\f145";
+}
+.sync-paymeter .fa-minus-square:before {
+  content: "\f146";
+}
+.sync-paymeter .fa-minus-square-o:before {
+  content: "\f147";
+}
+.sync-paymeter .fa-level-up:before {
+  content: "\f148";
+}
+.sync-paymeter .fa-level-down:before {
+  content: "\f149";
+}
+.sync-paymeter .fa-check-square:before {
+  content: "\f14a";
+}
+.sync-paymeter .fa-pencil-square:before {
+  content: "\f14b";
+}
+.sync-paymeter .fa-external-link-square:before {
+  content: "\f14c";
+}
+.sync-paymeter .fa-share-square:before {
+  content: "\f14d";
+}
+.sync-paymeter .fa-compass:before {
+  content: "\f14e";
+}
+.sync-paymeter .fa-toggle-down:before,
+.sync-paymeter .fa-caret-square-o-down:before {
+  content: "\f150";
+}
+.sync-paymeter .fa-toggle-up:before,
+.sync-paymeter .fa-caret-square-o-up:before {
+  content: "\f151";
+}
+.sync-paymeter .fa-toggle-right:before,
+.sync-paymeter .fa-caret-square-o-right:before {
+  content: "\f152";
+}
+.sync-paymeter .fa-euro:before,
+.sync-paymeter .fa-eur:before {
+  content: "\f153";
+}
+.sync-paymeter .fa-gbp:before {
+  content: "\f154";
+}
+.sync-paymeter .fa-dollar:before,
+.sync-paymeter .fa-usd:before {
+  content: "\f155";
+}
+.sync-paymeter .fa-rupee:before,
+.sync-paymeter .fa-inr:before {
+  content: "\f156";
+}
+.sync-paymeter .fa-cny:before,
+.sync-paymeter .fa-rmb:before,
+.sync-paymeter .fa-yen:before,
+.sync-paymeter .fa-jpy:before {
+  content: "\f157";
+}
+.sync-paymeter .fa-ruble:before,
+.sync-paymeter .fa-rouble:before,
+.sync-paymeter .fa-rub:before {
+  content: "\f158";
+}
+.sync-paymeter .fa-won:before,
+.sync-paymeter .fa-krw:before {
+  content: "\f159";
+}
+.sync-paymeter .fa-bitcoin:before,
+.sync-paymeter .fa-btc:before {
+  content: "\f15a";
+}
+.sync-paymeter .fa-file:before {
+  content: "\f15b";
+}
+.sync-paymeter .fa-file-text:before {
+  content: "\f15c";
+}
+.sync-paymeter .fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+.sync-paymeter .fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+.sync-paymeter .fa-sort-amount-asc:before {
+  content: "\f160";
+}
+.sync-paymeter .fa-sort-amount-desc:before {
+  content: "\f161";
+}
+.sync-paymeter .fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+.sync-paymeter .fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+.sync-paymeter .fa-thumbs-up:before {
+  content: "\f164";
+}
+.sync-paymeter .fa-thumbs-down:before {
+  content: "\f165";
+}
+.sync-paymeter .fa-youtube-square:before {
+  content: "\f166";
+}
+.sync-paymeter .fa-youtube:before {
+  content: "\f167";
+}
+.sync-paymeter .fa-xing:before {
+  content: "\f168";
+}
+.sync-paymeter .fa-xing-square:before {
+  content: "\f169";
+}
+.sync-paymeter .fa-youtube-play:before {
+  content: "\f16a";
+}
+.sync-paymeter .fa-dropbox:before {
+  content: "\f16b";
+}
+.sync-paymeter .fa-stack-overflow:before {
+  content: "\f16c";
+}
+.sync-paymeter .fa-instagram:before {
+  content: "\f16d";
+}
+.sync-paymeter .fa-flickr:before {
+  content: "\f16e";
+}
+.sync-paymeter .fa-adn:before {
+  content: "\f170";
+}
+.sync-paymeter .fa-bitbucket:before {
+  content: "\f171";
+}
+.sync-paymeter .fa-bitbucket-square:before {
+  content: "\f172";
+}
+.sync-paymeter .fa-tumblr:before {
+  content: "\f173";
+}
+.sync-paymeter .fa-tumblr-square:before {
+  content: "\f174";
+}
+.sync-paymeter .fa-long-arrow-down:before {
+  content: "\f175";
+}
+.sync-paymeter .fa-long-arrow-up:before {
+  content: "\f176";
+}
+.sync-paymeter .fa-long-arrow-left:before {
+  content: "\f177";
+}
+.sync-paymeter .fa-long-arrow-right:before {
+  content: "\f178";
+}
+.sync-paymeter .fa-apple:before {
+  content: "\f179";
+}
+.sync-paymeter .fa-windows:before {
+  content: "\f17a";
+}
+.sync-paymeter .fa-android:before {
+  content: "\f17b";
+}
+.sync-paymeter .fa-linux:before {
+  content: "\f17c";
+}
+.sync-paymeter .fa-dribbble:before {
+  content: "\f17d";
+}
+.sync-paymeter .fa-skype:before {
+  content: "\f17e";
+}
+.sync-paymeter .fa-foursquare:before {
+  content: "\f180";
+}
+.sync-paymeter .fa-trello:before {
+  content: "\f181";
+}
+.sync-paymeter .fa-female:before {
+  content: "\f182";
+}
+.sync-paymeter .fa-male:before {
+  content: "\f183";
+}
+.sync-paymeter .fa-gittip:before,
+.sync-paymeter .fa-gratipay:before {
+  content: "\f184";
+}
+.sync-paymeter .fa-sun-o:before {
+  content: "\f185";
+}
+.sync-paymeter .fa-moon-o:before {
+  content: "\f186";
+}
+.sync-paymeter .fa-archive:before {
+  content: "\f187";
+}
+.sync-paymeter .fa-bug:before {
+  content: "\f188";
+}
+.sync-paymeter .fa-vk:before {
+  content: "\f189";
+}
+.sync-paymeter .fa-weibo:before {
+  content: "\f18a";
+}
+.sync-paymeter .fa-renren:before {
+  content: "\f18b";
+}
+.sync-paymeter .fa-pagelines:before {
+  content: "\f18c";
+}
+.sync-paymeter .fa-stack-exchange:before {
+  content: "\f18d";
+}
+.sync-paymeter .fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+.sync-paymeter .fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+.sync-paymeter .fa-toggle-left:before,
+.sync-paymeter .fa-caret-square-o-left:before {
+  content: "\f191";
+}
+.sync-paymeter .fa-dot-circle-o:before {
+  content: "\f192";
+}
+.sync-paymeter .fa-wheelchair:before {
+  content: "\f193";
+}
+.sync-paymeter .fa-vimeo-square:before {
+  content: "\f194";
+}
+.sync-paymeter .fa-turkish-lira:before,
+.sync-paymeter .fa-try:before {
+  content: "\f195";
+}
+.sync-paymeter .fa-plus-square-o:before {
+  content: "\f196";
+}
+.sync-paymeter .fa-space-shuttle:before {
+  content: "\f197";
+}
+.sync-paymeter .fa-slack:before {
+  content: "\f198";
+}
+.sync-paymeter .fa-envelope-square:before {
+  content: "\f199";
+}
+.sync-paymeter .fa-wordpress:before {
+  content: "\f19a";
+}
+.sync-paymeter .fa-openid:before {
+  content: "\f19b";
+}
+.sync-paymeter .fa-institution:before,
+.sync-paymeter .fa-bank:before,
+.sync-paymeter .fa-university:before {
+  content: "\f19c";
+}
+.sync-paymeter .fa-mortar-board:before,
+.sync-paymeter .fa-graduation-cap:before {
+  content: "\f19d";
+}
+.sync-paymeter .fa-yahoo:before {
+  content: "\f19e";
+}
+.sync-paymeter .fa-google:before {
+  content: "\f1a0";
+}
+.sync-paymeter .fa-reddit:before {
+  content: "\f1a1";
+}
+.sync-paymeter .fa-reddit-square:before {
+  content: "\f1a2";
+}
+.sync-paymeter .fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.sync-paymeter .fa-stumbleupon:before {
+  content: "\f1a4";
+}
+.sync-paymeter .fa-delicious:before {
+  content: "\f1a5";
+}
+.sync-paymeter .fa-digg:before {
+  content: "\f1a6";
+}
+.sync-paymeter .fa-pied-piper:before {
+  content: "\f1a7";
+}
+.sync-paymeter .fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+.sync-paymeter .fa-drupal:before {
+  content: "\f1a9";
+}
+.sync-paymeter .fa-joomla:before {
+  content: "\f1aa";
+}
+.sync-paymeter .fa-language:before {
+  content: "\f1ab";
+}
+.sync-paymeter .fa-fax:before {
+  content: "\f1ac";
+}
+.sync-paymeter .fa-building:before {
+  content: "\f1ad";
+}
+.sync-paymeter .fa-child:before {
+  content: "\f1ae";
+}
+.sync-paymeter .fa-paw:before {
+  content: "\f1b0";
+}
+.sync-paymeter .fa-spoon:before {
+  content: "\f1b1";
+}
+.sync-paymeter .fa-cube:before {
+  content: "\f1b2";
+}
+.sync-paymeter .fa-cubes:before {
+  content: "\f1b3";
+}
+.sync-paymeter .fa-behance:before {
+  content: "\f1b4";
+}
+.sync-paymeter .fa-behance-square:before {
+  content: "\f1b5";
+}
+.sync-paymeter .fa-steam:before {
+  content: "\f1b6";
+}
+.sync-paymeter .fa-steam-square:before {
+  content: "\f1b7";
+}
+.sync-paymeter .fa-recycle:before {
+  content: "\f1b8";
+}
+.sync-paymeter .fa-automobile:before,
+.sync-paymeter .fa-car:before {
+  content: "\f1b9";
+}
+.sync-paymeter .fa-cab:before,
+.sync-paymeter .fa-taxi:before {
+  content: "\f1ba";
+}
+.sync-paymeter .fa-tree:before {
+  content: "\f1bb";
+}
+.sync-paymeter .fa-spotify:before {
+  content: "\f1bc";
+}
+.sync-paymeter .fa-deviantart:before {
+  content: "\f1bd";
+}
+.sync-paymeter .fa-soundcloud:before {
+  content: "\f1be";
+}
+.sync-paymeter .fa-database:before {
+  content: "\f1c0";
+}
+.sync-paymeter .fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+.sync-paymeter .fa-file-word-o:before {
+  content: "\f1c2";
+}
+.sync-paymeter .fa-file-excel-o:before {
+  content: "\f1c3";
+}
+.sync-paymeter .fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+.sync-paymeter .fa-file-photo-o:before,
+.sync-paymeter .fa-file-picture-o:before,
+.sync-paymeter .fa-file-image-o:before {
+  content: "\f1c5";
+}
+.sync-paymeter .fa-file-zip-o:before,
+.sync-paymeter .fa-file-archive-o:before {
+  content: "\f1c6";
+}
+.sync-paymeter .fa-file-sound-o:before,
+.sync-paymeter .fa-file-audio-o:before {
+  content: "\f1c7";
+}
+.sync-paymeter .fa-file-movie-o:before,
+.sync-paymeter .fa-file-video-o:before {
+  content: "\f1c8";
+}
+.sync-paymeter .fa-file-code-o:before {
+  content: "\f1c9";
+}
+.sync-paymeter .fa-vine:before {
+  content: "\f1ca";
+}
+.sync-paymeter .fa-codepen:before {
+  content: "\f1cb";
+}
+.sync-paymeter .fa-jsfiddle:before {
+  content: "\f1cc";
+}
+.sync-paymeter .fa-life-bouy:before,
+.sync-paymeter .fa-life-buoy:before,
+.sync-paymeter .fa-life-saver:before,
+.sync-paymeter .fa-support:before,
+.sync-paymeter .fa-life-ring:before {
+  content: "\f1cd";
+}
+.sync-paymeter .fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+.sync-paymeter .fa-ra:before,
+.sync-paymeter .fa-rebel:before {
+  content: "\f1d0";
+}
+.sync-paymeter .fa-ge:before,
+.sync-paymeter .fa-empire:before {
+  content: "\f1d1";
+}
+.sync-paymeter .fa-git-square:before {
+  content: "\f1d2";
+}
+.sync-paymeter .fa-git:before {
+  content: "\f1d3";
+}
+.sync-paymeter .fa-y-combinator-square:before,
+.sync-paymeter .fa-yc-square:before,
+.sync-paymeter .fa-hacker-news:before {
+  content: "\f1d4";
+}
+.sync-paymeter .fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+.sync-paymeter .fa-qq:before {
+  content: "\f1d6";
+}
+.sync-paymeter .fa-wechat:before,
+.sync-paymeter .fa-weixin:before {
+  content: "\f1d7";
+}
+.sync-paymeter .fa-send:before,
+.sync-paymeter .fa-paper-plane:before {
+  content: "\f1d8";
+}
+.sync-paymeter .fa-send-o:before,
+.sync-paymeter .fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+.sync-paymeter .fa-history:before {
+  content: "\f1da";
+}
+.sync-paymeter .fa-circle-thin:before {
+  content: "\f1db";
+}
+.sync-paymeter .fa-header:before {
+  content: "\f1dc";
+}
+.sync-paymeter .fa-paragraph:before {
+  content: "\f1dd";
+}
+.sync-paymeter .fa-sliders:before {
+  content: "\f1de";
+}
+.sync-paymeter .fa-share-alt:before {
+  content: "\f1e0";
+}
+.sync-paymeter .fa-share-alt-square:before {
+  content: "\f1e1";
+}
+.sync-paymeter .fa-bomb:before {
+  content: "\f1e2";
+}
+.sync-paymeter .fa-soccer-ball-o:before,
+.sync-paymeter .fa-futbol-o:before {
+  content: "\f1e3";
+}
+.sync-paymeter .fa-tty:before {
+  content: "\f1e4";
+}
+.sync-paymeter .fa-binoculars:before {
+  content: "\f1e5";
+}
+.sync-paymeter .fa-plug:before {
+  content: "\f1e6";
+}
+.sync-paymeter .fa-slideshare:before {
+  content: "\f1e7";
+}
+.sync-paymeter .fa-twitch:before {
+  content: "\f1e8";
+}
+.sync-paymeter .fa-yelp:before {
+  content: "\f1e9";
+}
+.sync-paymeter .fa-newspaper-o:before {
+  content: "\f1ea";
+}
+.sync-paymeter .fa-wifi:before {
+  content: "\f1eb";
+}
+.sync-paymeter .fa-calculator:before {
+  content: "\f1ec";
+}
+.sync-paymeter .fa-paypal:before {
+  content: "\f1ed";
+}
+.sync-paymeter .fa-google-wallet:before {
+  content: "\f1ee";
+}
+.sync-paymeter .fa-cc-visa:before {
+  content: "\f1f0";
+}
+.sync-paymeter .fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+.sync-paymeter .fa-cc-discover:before {
+  content: "\f1f2";
+}
+.sync-paymeter .fa-cc-amex:before {
+  content: "\f1f3";
+}
+.sync-paymeter .fa-cc-paypal:before {
+  content: "\f1f4";
+}
+.sync-paymeter .fa-cc-stripe:before {
+  content: "\f1f5";
+}
+.sync-paymeter .fa-bell-slash:before {
+  content: "\f1f6";
+}
+.sync-paymeter .fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+.sync-paymeter .fa-trash:before {
+  content: "\f1f8";
+}
+.sync-paymeter .fa-copyright:before {
+  content: "\f1f9";
+}
+.sync-paymeter .fa-at:before {
+  content: "\f1fa";
+}
+.sync-paymeter .fa-eyedropper:before {
+  content: "\f1fb";
+}
+.sync-paymeter .fa-paint-brush:before {
+  content: "\f1fc";
+}
+.sync-paymeter .fa-birthday-cake:before {
+  content: "\f1fd";
+}
+.sync-paymeter .fa-area-chart:before {
+  content: "\f1fe";
+}
+.sync-paymeter .fa-pie-chart:before {
+  content: "\f200";
+}
+.sync-paymeter .fa-line-chart:before {
+  content: "\f201";
+}
+.sync-paymeter .fa-lastfm:before {
+  content: "\f202";
+}
+.sync-paymeter .fa-lastfm-square:before {
+  content: "\f203";
+}
+.sync-paymeter .fa-toggle-off:before {
+  content: "\f204";
+}
+.sync-paymeter .fa-toggle-on:before {
+  content: "\f205";
+}
+.sync-paymeter .fa-bicycle:before {
+  content: "\f206";
+}
+.sync-paymeter .fa-bus:before {
+  content: "\f207";
+}
+.sync-paymeter .fa-ioxhost:before {
+  content: "\f208";
+}
+.sync-paymeter .fa-angellist:before {
+  content: "\f209";
+}
+.sync-paymeter .fa-cc:before {
+  content: "\f20a";
+}
+.sync-paymeter .fa-shekel:before,
+.sync-paymeter .fa-sheqel:before,
+.sync-paymeter .fa-ils:before {
+  content: "\f20b";
+}
+.sync-paymeter .fa-meanpath:before {
+  content: "\f20c";
+}
+.sync-paymeter .fa-buysellads:before {
+  content: "\f20d";
+}
+.sync-paymeter .fa-connectdevelop:before {
+  content: "\f20e";
+}
+.sync-paymeter .fa-dashcube:before {
+  content: "\f210";
+}
+.sync-paymeter .fa-forumbee:before {
+  content: "\f211";
+}
+.sync-paymeter .fa-leanpub:before {
+  content: "\f212";
+}
+.sync-paymeter .fa-sellsy:before {
+  content: "\f213";
+}
+.sync-paymeter .fa-shirtsinbulk:before {
+  content: "\f214";
+}
+.sync-paymeter .fa-simplybuilt:before {
+  content: "\f215";
+}
+.sync-paymeter .fa-skyatlas:before {
+  content: "\f216";
+}
+.sync-paymeter .fa-cart-plus:before {
+  content: "\f217";
+}
+.sync-paymeter .fa-cart-arrow-down:before {
+  content: "\f218";
+}
+.sync-paymeter .fa-diamond:before {
+  content: "\f219";
+}
+.sync-paymeter .fa-ship:before {
+  content: "\f21a";
+}
+.sync-paymeter .fa-user-secret:before {
+  content: "\f21b";
+}
+.sync-paymeter .fa-motorcycle:before {
+  content: "\f21c";
+}
+.sync-paymeter .fa-street-view:before {
+  content: "\f21d";
+}
+.sync-paymeter .fa-heartbeat:before {
+  content: "\f21e";
+}
+.sync-paymeter .fa-venus:before {
+  content: "\f221";
+}
+.sync-paymeter .fa-mars:before {
+  content: "\f222";
+}
+.sync-paymeter .fa-mercury:before {
+  content: "\f223";
+}
+.sync-paymeter .fa-intersex:before,
+.sync-paymeter .fa-transgender:before {
+  content: "\f224";
+}
+.sync-paymeter .fa-transgender-alt:before {
+  content: "\f225";
+}
+.sync-paymeter .fa-venus-double:before {
+  content: "\f226";
+}
+.sync-paymeter .fa-mars-double:before {
+  content: "\f227";
+}
+.sync-paymeter .fa-venus-mars:before {
+  content: "\f228";
+}
+.sync-paymeter .fa-mars-stroke:before {
+  content: "\f229";
+}
+.sync-paymeter .fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+.sync-paymeter .fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+.sync-paymeter .fa-neuter:before {
+  content: "\f22c";
+}
+.sync-paymeter .fa-genderless:before {
+  content: "\f22d";
+}
+.sync-paymeter .fa-facebook-official:before {
+  content: "\f230";
+}
+.sync-paymeter .fa-pinterest-p:before {
+  content: "\f231";
+}
+.sync-paymeter .fa-whatsapp:before {
+  content: "\f232";
+}
+.sync-paymeter .fa-server:before {
+  content: "\f233";
+}
+.sync-paymeter .fa-user-plus:before {
+  content: "\f234";
+}
+.sync-paymeter .fa-user-times:before {
+  content: "\f235";
+}
+.sync-paymeter .fa-hotel:before,
+.sync-paymeter .fa-bed:before {
+  content: "\f236";
+}
+.sync-paymeter .fa-viacoin:before {
+  content: "\f237";
+}
+.sync-paymeter .fa-train:before {
+  content: "\f238";
+}
+.sync-paymeter .fa-subway:before {
+  content: "\f239";
+}
+.sync-paymeter .fa-medium:before {
+  content: "\f23a";
+}
+.sync-paymeter .fa-yc:before,
+.sync-paymeter .fa-y-combinator:before {
+  content: "\f23b";
+}
+.sync-paymeter .fa-optin-monster:before {
+  content: "\f23c";
+}
+.sync-paymeter .fa-opencart:before {
+  content: "\f23d";
+}
+.sync-paymeter .fa-expeditedssl:before {
+  content: "\f23e";
+}
+.sync-paymeter .fa-battery-4:before,
+.sync-paymeter .fa-battery-full:before {
+  content: "\f240";
+}
+.sync-paymeter .fa-battery-3:before,
+.sync-paymeter .fa-battery-three-quarters:before {
+  content: "\f241";
+}
+.sync-paymeter .fa-battery-2:before,
+.sync-paymeter .fa-battery-half:before {
+  content: "\f242";
+}
+.sync-paymeter .fa-battery-1:before,
+.sync-paymeter .fa-battery-quarter:before {
+  content: "\f243";
+}
+.sync-paymeter .fa-battery-0:before,
+.sync-paymeter .fa-battery-empty:before {
+  content: "\f244";
+}
+.sync-paymeter .fa-mouse-pointer:before {
+  content: "\f245";
+}
+.sync-paymeter .fa-i-cursor:before {
+  content: "\f246";
+}
+.sync-paymeter .fa-object-group:before {
+  content: "\f247";
+}
+.sync-paymeter .fa-object-ungroup:before {
+  content: "\f248";
+}
+.sync-paymeter .fa-sticky-note:before {
+  content: "\f249";
+}
+.sync-paymeter .fa-sticky-note-o:before {
+  content: "\f24a";
+}
+.sync-paymeter .fa-cc-jcb:before {
+  content: "\f24b";
+}
+.sync-paymeter .fa-cc-diners-club:before {
+  content: "\f24c";
+}
+.sync-paymeter .fa-clone:before {
+  content: "\f24d";
+}
+.sync-paymeter .fa-balance-scale:before {
+  content: "\f24e";
+}
+.sync-paymeter .fa-hourglass-o:before {
+  content: "\f250";
+}
+.sync-paymeter .fa-hourglass-1:before,
+.sync-paymeter .fa-hourglass-start:before {
+  content: "\f251";
+}
+.sync-paymeter .fa-hourglass-2:before,
+.sync-paymeter .fa-hourglass-half:before {
+  content: "\f252";
+}
+.sync-paymeter .fa-hourglass-3:before,
+.sync-paymeter .fa-hourglass-end:before {
+  content: "\f253";
+}
+.sync-paymeter .fa-hourglass:before {
+  content: "\f254";
+}
+.sync-paymeter .fa-hand-grab-o:before,
+.sync-paymeter .fa-hand-rock-o:before {
+  content: "\f255";
+}
+.sync-paymeter .fa-hand-stop-o:before,
+.sync-paymeter .fa-hand-paper-o:before {
+  content: "\f256";
+}
+.sync-paymeter .fa-hand-scissors-o:before {
+  content: "\f257";
+}
+.sync-paymeter .fa-hand-lizard-o:before {
+  content: "\f258";
+}
+.sync-paymeter .fa-hand-spock-o:before {
+  content: "\f259";
+}
+.sync-paymeter .fa-hand-pointer-o:before {
+  content: "\f25a";
+}
+.sync-paymeter .fa-hand-peace-o:before {
+  content: "\f25b";
+}
+.sync-paymeter .fa-trademark:before {
+  content: "\f25c";
+}
+.sync-paymeter .fa-registered:before {
+  content: "\f25d";
+}
+.sync-paymeter .fa-creative-commons:before {
+  content: "\f25e";
+}
+.sync-paymeter .fa-gg:before {
+  content: "\f260";
+}
+.sync-paymeter .fa-gg-circle:before {
+  content: "\f261";
+}
+.sync-paymeter .fa-tripadvisor:before {
+  content: "\f262";
+}
+.sync-paymeter .fa-odnoklassniki:before {
+  content: "\f263";
+}
+.sync-paymeter .fa-odnoklassniki-square:before {
+  content: "\f264";
+}
+.sync-paymeter .fa-get-pocket:before {
+  content: "\f265";
+}
+.sync-paymeter .fa-wikipedia-w:before {
+  content: "\f266";
+}
+.sync-paymeter .fa-safari:before {
+  content: "\f267";
+}
+.sync-paymeter .fa-chrome:before {
+  content: "\f268";
+}
+.sync-paymeter .fa-firefox:before {
+  content: "\f269";
+}
+.sync-paymeter .fa-opera:before {
+  content: "\f26a";
+}
+.sync-paymeter .fa-internet-explorer:before {
+  content: "\f26b";
+}
+.sync-paymeter .fa-tv:before,
+.sync-paymeter .fa-television:before {
+  content: "\f26c";
+}
+.sync-paymeter .fa-contao:before {
+  content: "\f26d";
+}
+.sync-paymeter .fa-500px:before {
+  content: "\f26e";
+}
+.sync-paymeter .fa-amazon:before {
+  content: "\f270";
+}
+.sync-paymeter .fa-calendar-plus-o:before {
+  content: "\f271";
+}
+.sync-paymeter .fa-calendar-minus-o:before {
+  content: "\f272";
+}
+.sync-paymeter .fa-calendar-times-o:before {
+  content: "\f273";
+}
+.sync-paymeter .fa-calendar-check-o:before {
+  content: "\f274";
+}
+.sync-paymeter .fa-industry:before {
+  content: "\f275";
+}
+.sync-paymeter .fa-map-pin:before {
+  content: "\f276";
+}
+.sync-paymeter .fa-map-signs:before {
+  content: "\f277";
+}
+.sync-paymeter .fa-map-o:before {
+  content: "\f278";
+}
+.sync-paymeter .fa-map:before {
+  content: "\f279";
+}
+.sync-paymeter .fa-commenting:before {
+  content: "\f27a";
+}
+.sync-paymeter .fa-commenting-o:before {
+  content: "\f27b";
+}
+.sync-paymeter .fa-houzz:before {
+  content: "\f27c";
+}
+.sync-paymeter .fa-vimeo:before {
+  content: "\f27d";
+}
+.sync-paymeter .fa-black-tie:before {
+  content: "\f27e";
+}
+.sync-paymeter .fa-fonticons:before {
+  content: "\f280";
+}
+.sync-paymeter .fa-reddit-alien:before {
+  content: "\f281";
+}
+.sync-paymeter .fa-edge:before {
+  content: "\f282";
+}
+.sync-paymeter .fa-credit-card-alt:before {
+  content: "\f283";
+}
+.sync-paymeter .fa-codiepie:before {
+  content: "\f284";
+}
+.sync-paymeter .fa-modx:before {
+  content: "\f285";
+}
+.sync-paymeter .fa-fort-awesome:before {
+  content: "\f286";
+}
+.sync-paymeter .fa-usb:before {
+  content: "\f287";
+}
+.sync-paymeter .fa-product-hunt:before {
+  content: "\f288";
+}
+.sync-paymeter .fa-mixcloud:before {
+  content: "\f289";
+}
+.sync-paymeter .fa-scribd:before {
+  content: "\f28a";
+}
+.sync-paymeter .fa-pause-circle:before {
+  content: "\f28b";
+}
+.sync-paymeter .fa-pause-circle-o:before {
+  content: "\f28c";
+}
+.sync-paymeter .fa-stop-circle:before {
+  content: "\f28d";
+}
+.sync-paymeter .fa-stop-circle-o:before {
+  content: "\f28e";
+}
+.sync-paymeter .fa-shopping-bag:before {
+  content: "\f290";
+}
+.sync-paymeter .fa-shopping-basket:before {
+  content: "\f291";
+}
+.sync-paymeter .fa-hashtag:before {
+  content: "\f292";
+}
+.sync-paymeter .fa-bluetooth:before {
+  content: "\f293";
+}
+.sync-paymeter .fa-bluetooth-b:before {
+  content: "\f294";
+}
+.sync-paymeter .fa-percent:before {
+  content: "\f295";
+}
 /*
 	Hearst SF Chronicle-specific Overlay Styles
 */
@@ -5366,40 +7452,60 @@
   font-style: normal;
 }
 /* base style is for mobile display */
+.sync-paymeter p,
+.sync-paymeter span,
+.sync-paymeter div,
+.sync-paymeter li {
+  line-height: 17px;
+}
 .syncronex-warning-overlay-container {
   visibility: visible;
   position: fixed;
   left: 0px;
   width: 100%;
+  bottom: 0;
+  top: auto;
+  height: auto;
   z-index: 2147483647;
 }
 .syncronex-warning-overlay-content {
   margin: auto;
-  /* center the overlay */
-  padding: 20px;
   background-color: #FFFFFF;
   border-top: 1px solid #999;
   z-index: 2147483647;
   filter: alpha(opacity=100);
   opacity: 1;
 }
-a.boxclose {
-  position: relative;
-  float: right;
-  margin-top: -35px;
-  margin-right: -20px;
-  cursor: pointer;
-  color: #fff;
-  border: 0px;
-  border-radius: 30px;
-  background: #000000;
-  font-size: 1.5em;
+.boxclose {
   display: inline-block;
-  line-height: 0px;
-  padding: 15px 10px;
+  z-index: auto;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -11px;
+  right: 8px;
+  cursor: pointer;
+  opacity: 1;
+  overflow: visible;
+  border: none;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  color: #fff;
+  text-overflow: clip;
+  background: #000;
 }
-a.boxclose:before {
-  content: "X";
+.boxclose a {
+  display: block;
+  float: left;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  line-height: 1em;
+  margin-top: -0.55em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: hackmanbold;
 }
 .syncronex-wall-overlay-container {
   visibility: visible;
@@ -5430,6 +7536,14 @@ a.boxclose:before {
   margin: 10px;
   padding: 15px;
   z-index: 2147483647;
+}
+/* 
+    remove some of bootstraps margin-offset to get space
+    back on right/left of our rows in the alert
+*/
+.syncronex-warning-overlay-content .row {
+  margin-left: -4px;
+  margin-right: -4px;
 }
 /* Set the 'tap area' to be larger than actual control */
 .tablet-click:after {
@@ -5594,7 +7708,6 @@ div.border-left {
   padding-right: 2px;
 }
 .sync-wall-plan-container {
-  /*			width: 200px;*/
   margin-top: 10px;
   height: 165px;
   background: #000;
@@ -5612,10 +7725,6 @@ button.sync-wall-offer-btn .sync-wall-button-font {
 .sync-wall-plan-container p {
   color: white;
   padding-top: 10px;
-}
-.sync-wall-benefits-title-row {
-  /*			margin-top:15px;
-			margin-bottom:15px;*/
 }
 .sync-wall-benefits-title {
   color: white;
@@ -5687,27 +7796,24 @@ button.sync-wall-offer-btn .sync-wall-button-font {
 }
 .sync-inline-font6 {
   font-family: sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 12px;
   color: #222;
 }
-
-
 .sync-inline-btn,
 .syncronex-inline-overlay-content #saloginform .sync-inline-btn,
 .syncronex-inline-overlay-content .sync-inline-activation-row a {
   background-color: #CC4700;
   color: #FFF;
   text-decoration: none;
-  padding:12px 18px;
+  padding: 12px 18px;
 }
-.sync-inline-btn-inverse{
-    background-color:#222;
+.sync-inline-btn-inverse {
+  background-color: #222;
 }
-.sync-inline-btn > span{
-    font-size:.75em;
+.sync-inline-btn > span {
+  font-size: .75em;
 }
-
 .sync-inline-tandc {
   padding-top: 30px;
   font-size: .75em;
@@ -5723,54 +7829,58 @@ button.sync-wall-offer-btn .sync-wall-button-font {
   margin-left: -15px;
 }
 /* Set the height smaller for anything larger than phone view */
-@media screen and (min-width:320px) and (max-width:999px){
-    .syncronex-inline-overlay-content {
-        width:80%;
-    }
+@media screen and (min-width: 320px) and (max-width: 999px) {
+  .syncronex-inline-overlay-content {
+    width: 80%;
+  }
 }
-
 @media screen and (max-width: 600px) {
-  .syncronex-warning-overlay-container {
-    top: 10%;
-    height: 100%;
-  }
-
   .sync-inline-c-to-a-row {
-  border: 1px solid #CC4700;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-
-  .sync-inline-xs-sign-in-controls{
-    vertical-align:middle;
+    border: 1px solid #CC4700;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
-
+  .sync-inline-xs-sign-in-controls {
+    vertical-align: middle;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .boxclose {
+    top: -10px;
+    right: -2px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .boxclose {
+    top: -12px;
+    right: -10px;
+  }
 }
 @media screen and (min-width: 601px) {
+  .boxclose {
+    width: 20px;
+    height: 20px;
+  }
   .row-spacer {
     padding-top: 20px;
   }
+  .syncronex-warning-overlay {
+    text-align: center;
+  }
   .syncronex-warning-overlay-container {
-    padding: 20px;
-    bottom: 0px;
-    height: 275px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    height: auto;
   }
   .syncronex-warning-overlay-content {
     max-width: 750px;
     /* the 'widest' the overlay can be */
     padding: 30px;
     border: 1px solid #999;
-  }
-  .syncronex-wall-overlay-content {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 720px;
-    /* the 'widest' the overlay can be */
-    padding: 50px;
+    position: relative;
   }
   .sync-wall-cta-area hr {
     color: #333;

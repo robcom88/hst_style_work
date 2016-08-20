@@ -134,79 +134,65 @@
         <div id="syncronexOverlayContainer" class="syncronex-wall-overlay-container"> 
             <div id="syncronexOverlayContent" class="syncronex-wall-overlay-content">
                 <!-- Overlay Snippet starts here -->
-<input type="hidden" value="<%urlBase%>" />
-<div class="sync-paymeter">
-<div class="sync-wall-content-padding">
-<div class="sync-row sync-wall-title-row text-center">
-<span class="sync-wall-font1">
-<%wallHeadline%>
-</span>
-</div>
-<div class="sync-row sync-wall-subtitle-row text-center">
-<span class="sync-wall-font2">
-<%wallHeadline2%>
-</span>
-</div>
-<div class="sync-row sync-tablet text-center">
-<div class="sync-wall-benefit-headline sync-valign">
-<span class="sync-wall-font3"><%benefitsTitleMsg%></span>
-</div>
-</div>
-<div class="sync-row sync-tablet">
-<div class="sync-wall-benefit-features">
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit1%></span></li>
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit2%></span></li>
-</ul>
-</div>
-<div class="sync-wall-benefit-features">
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit3%></span></li>
-<li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4"><%benefit4%></span></li>
-</ul>
-</div>
-</div>
- 
-<div class="sync-row sync-wall-offers-row">
-<%planTemplate_3PlanSm_1%>
-<%planTemplate_3PlanSm_5%>
-<%planTemplate_3PlanSm_9%>
-<%planTemplate_3PlanLg_1%>
-<%planTemplate_3PlanLg_5%>
-<%planTemplate_3PlanLg_9%>
-</div>
- 
-<div class="clearfix"></div>
- 
-<hr class="sync-wall-hr" />
- 
-<div class="sync-mobile">
-	<div class="sync-row sync-auth-row-msg">
-		<span class="sync-wall-font6"><%existingSubscriberMsg%></span>
-    </div>
-    <div class="sync-row sync-wall-signin-area">
-        <input id="loginForm-toggle" type="checkbox" class="sync-toggle"/>
-        <div id="loginForm" class="sync-row sync-toggle-content">
-            <div id="treg-container" class="treg-gya-synx-offers-login-widget">
-                <!-- the treg logon widget will get inserted here -->
-            </div>
-        </div>
+                <input type="hidden" value="https://syncaccess-hst-sfc.stage.syncronex.com">
+                <div class="sync-paymeter">
+                    <input id="loginForm-toggle" type="checkbox" class="sync-toggle">
 
-        <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle">
-            <span class="sync-wall-button-font"><%mobileSignInButtonText%></span>
-        </label>
+                <div id="loginForm" class="sync-toggle-content text-center">
+                    <div class="sync-wall-content-padding">
+                        <p>login widget!</p>
+                    </div> <label id="cancelBtn" class="sync-btn sync-toggle" for="loginForm-toggle"> <span class="sync-wall-font6 tablet-click"><i class="fa fa-times"></i> CANCEL</span>        </label>
+                </div>
+                <div class="sync-wall-content-padding sync-toggle-off">
+                    <div class="sync-row sync-wall-title-row text-center"> <span class="sync-wall-font1">                Subscribe now to gain access!            </span>        </div>
+                    <div class="sync-row sync-wall-subtitle-row text-center"> <span class="sync-wall-font2">                <strong>The Chronicle provides 5 free articles a month. You've accessed all 5.</strong><br>  If you would like to continue reading, start a subscription today.            </span>        </div>
+                    <div class="sync-row sync-tablet text-center">
+                        <div class="sync-wall-benefit-headline sync-valign"> <span class="sync-wall-font3">Premium Benefits Include:</span>            </div>
+                    </div>
+                    <div class="sync-row sync-tablet">
+                        <div class="sync-wall-benefit-features"> <ul class="fa-ul"> <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4">Pulitzer prize winning news coverage</span></li> <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4">Exclusive columnists, analysis and investigative journalism</span></li> </ul>
+                        </div>
+                        <div class="sync-wall-benefit-features"> <ul class="fa-ul"> <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4">VIP access to Bay Area events</span></li> <li><i class="fa-li fa fa-check-square"></i><span class="sync-wall-font4">24/7 digital access on the device of your choice</span></li> </ul>
+                        </div>
+                    </div>
+                    <div class="sync-row sync-wall-offers-row">
+                        <div class="sync-wall-plan-template-sm"><span class="sync-wall-font5">Unlimited Digital Access</span><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/17?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">Only 99¢</span></a>
+                        </div>
+                        <div class="sync-wall-plan-template-sm"><span class="sync-wall-font5">Unlimited Digital Access</span><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/18?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">$99/year</span></a>
+                        </div>
+                        <div class="sync-wall-plan-template-sm"><span class="sync-wall-font5">Daily Print + Digital</span><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/14?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">$6/week</span></a>
+                        </div>
+                        <div class="sync-wall-plan-template-lg" style="background-image: url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-FoodWine-300x265.jpg'); background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, 1)), url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-FoodWine-300x265.jpg');"><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/17?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">Only 99¢</span></a>
+                            <div>
+                                <p class="sync-wall-font5 sync-wall-font-white">Unlimited Digital Access</p>
+                            </div>
+                        </div>
+                        <div class="sync-wall-plan-template-lg" style="background-image: url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-News-300x265.jpg'); background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, 1)), url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-News-300x265.jpg');"><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/18?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">$99/year</span></a>
+                            <div>
+                                <p class="sync-wall-font5 sync-wall-font-white">Unlimited Digital Access</p>
+                            </div>
+                        </div>
+                        <div class="sync-wall-plan-template-lg" style="background-image: url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-Sports-300x265.jpg'); background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, 1)), url('https://az833274.vo.msecnd.net/img/hearst/Paywall-OfferImage-Sports-300x265.jpg');"><a href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/purchase/14?returnurl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on&amp;ipid=sfmw" class="sync-btn sync-wall-subscribe-button"><span class="sync-wall-button-font">$6/week</span></a>
+                            <div>
+                                <p class="sync-wall-font5 sync-wall-font-white">Daily Print + Digital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sync-tablet sync-row sync-wall-subtitle-row text-center"> <span class="sync-wall-font2">If you are a subscriber, sign-in below or <a style="text-decoration: underline;" href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/activation?returnUrl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on">look up your account</a></span>        </div>
+                    <div class="clearfix"></div> <hr class="sync-wall-hr">
+                    <div class="sync-mobile">
+                        <div class="sync-row sync-auth-row-msg"> <span class="sync-wall-font6 sync-wrap">If you are a subscriber, sign-in below or <a style="text-decoration: underline;" href="https://syncaccess-hst-sfc.stage.syncronex.com/portal/#/activation?returnUrl=http%3A%2F%2Fcmf.qa2.sfchronicle.com%2Fnews%2Fcrime%2Farticle%2FThe-Latest-Ex-NFL-star-Darren-Sharper-gets-18-9170488.php%3Fsync-debug-on">look up your account</a></span>            </div>
+                        <div class="sync-row sync-wall-signin-area"> <label id="signin" class="sync-btn sync-toggle" for="loginForm-toggle"> <span class="sync-wall-button-font">SIGN IN</span>                </label>
+                        </div>
+                    </div>
+                    <div class="sync-tablet">
+                        <div class="sync-row sync-wall-signin-area" style="height: 91px;background-color: yellowgreen">
+                            <span>Sign In Area</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
 
-	</div>
-</div>
-<div class="sync-tablet">
-	<div class="sync-row sync-wall-signin-area">
-		<div id="treg-container" class="treg-gya-synx-offers-login-widget">
-		<!-- the treg logon widget will get inserted here -->
-		</div>
-	</div>
-</div>
-</div>
-</div>
                 <!-- Overlay Snippet ends here -->
             </div>
         </div> 

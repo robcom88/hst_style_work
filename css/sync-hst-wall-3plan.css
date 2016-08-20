@@ -2138,6 +2138,12 @@
   font-weight: normal;
   font-style: normal;
 }
+.sync-paymeter p,
+.sync-paymeter span,
+.sync-paymeter div,
+.sync-paymeter li {
+  line-height: 17px;
+}
 .sync-row {
   display: block;
   float: left;
@@ -2234,6 +2240,14 @@ a.sync-btn {
   float: none;
   display: inline-block;
   vertical-align: middle;
+}
+/* the text within the headling block needs to center vertically*/
+.sync-valign span {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+  /*60% seems to center the text better to the eye*/
 }
 /* square off the round corners */
 .btn-flat,
@@ -2529,7 +2543,7 @@ button.sync-wall-offer-btn .sync-wall-button-font {
   padding-top: 0px;
 }
 /* 601-767 is still considered a 'tablet' display by Hearst*/
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) and (min-height: 700px) {
   .sync-tablet {
     display: inherit;
   }
@@ -2537,11 +2551,15 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     display: none;
   }
   .syncronex-wall-overlay-content {
-    height: 625px;
-    width: 94%;
+    height: 70%;
+    max-width: 94%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .sync-wall-content-padding {
-    margin: 2%;
+    margin: 0;
+    padding: 50px;
     height: auto;
   }
   .sync-wall-offers-row {
@@ -2654,12 +2672,10 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     display: none;
   }
   .syncronex-wall-overlay-content {
-    width: 720px;
+    max-width: 94%;
   }
   .sync-wall-content-padding {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 50px;
   }
   .sync-wall-benefit-features {
     width: 280px;
@@ -2715,8 +2731,13 @@ button.sync-wall-offer-btn .sync-wall-button-font {
     font-size: 12px;
   }
 }
-/*@media screen and (min-height:650px){
-    .syncronex-wall-overlay-content{
-        height:625px;
-    }
-}*/
+@media screen and (min-width: 1000px) {
+  .syncronex-wall-overlay-content {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-height: 900px) {
+  .syncronex-wall-overlay-content {
+    height: 675px;
+  }
+}
